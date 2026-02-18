@@ -1,0 +1,19 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil }list of figures}{ii}{section*.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }list of tables}{ii}{section*.3}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical Background}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Infrared Region}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Molecular Degrees of Freedom}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Vibrational Energy of a Diatomic Molecule}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Rotational Energy of a Diatomic Molecule}{2}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Rovibrational Transitions}{2}{subsection.2.5}%
+\contentsline {paragraph}{Vibrational}{3}{section*.4}%
+\contentsline {paragraph}{Rotational}{3}{section*.5}%
+\contentsline {subsection}{\numberline {2.6}Intensity Distribution and $J_{\text {max}}$}{4}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Fourier-Transform Spectrometer}{4}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Lambert--Beer Absorption Law}{6}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Barometric Altitude Formula}{7}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Experimental Methods}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apparatus}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Measurement Principle}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Procedure}{9}{subsection.3.3}%

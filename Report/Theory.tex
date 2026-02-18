@@ -1,0 +1,482 @@
+
+\section{Introduction}\label{sec: intro}
+
+The Earth's radiative balance is strongly influenced by the absorption of infrared (IR) radiation by atmospheric trace gases. While the atmosphere is largely transparent to incoming solar radiation in the visible range, several molecular species absorb outgoing terrestrial radiation in the infrared spectral region. This absorption process forms the physical basis of the greenhouse effect.
+
+Molecules interact with electromagnetic radiation when the radiation frequency matches allowed transitions between quantized molecular energy levels. 
+
+In the infrared region, these transitions correspond primarily to vibrational and rotational motions of molecules. Only molecules whose vibration leads to a change in electric dipole moment are IR active.
+
+Greenhouse gases such as CO$_2$, H$_2$O, and CH$_4$ possess vibrational modes that produce dipole moment changes and therefore absorb infrared radiation efficiently. In contrast, homonuclear diatomic molecules such as N$_2$ and O$_2$ do not exhibit dipole moment changes during vibration and are therefore largely IR inactive.
+
+In this experiment, infrared absorption spectra of atmospheric gases were measured using a Fourier Transform Infrared (FTIR) spectrometer. The aim was to identify characteristic absorption bands of greenhouse gases and relate these spectral features to molecular structure and the physical mechanism of the greenhouse effect.
+
+\section{Theoretical Background} \label{Theoretical Background}
+
+\subsection{Infrared Region} \label{Infrared Regions}
+
+The infrared region spans approximately
+
+\[
+\lambda \approx 0.7\,\mu\text{m} \; \text{to} \; 1000\,\mu\text{m}.
+\]
+
+In spectroscopy, the wavenumber $\tilde{\nu}$ is commonly used:
+
+\[
+\tilde{\nu} = \frac{1}{\lambda}.
+\]
+
+Molecular vibrational transitions typically occur in the mid-infrared region:
+
+\[
+4000 \text{--} 400 \,\text{cm}^{-1}.
+\]
+
+\subsection{Molecular Degrees of Freedom}
+
+For a molecule consisting of $N$ atoms:
+
+\begin{align}
+\text{Total degrees of freedom} &= 3N \\
+\text{Translational degrees} &= 3
+\end{align}
+
+Rotational degrees of freedom:
+\begin{itemize}
+    \item Linear molecule: 2
+    \item Nonlinear molecule: 3
+\end{itemize}
+
+Vibrational degrees of freedom:
+\begin{itemize}
+    \item Linear molecule: $3N - 5$
+    \item Nonlinear molecule: $3N - 6$
+\end{itemize}
+
+Examples:
+
+CO$_2$ (linear, $N=3$):
+\[
+3N - 5 = 4 \text{ vibrational modes}
+\]
+
+H$_2$O (nonlinear, $N=3$):
+\[
+3N - 6 = 3 \text{ vibrational modes}
+\]
+
+\subsection{Vibrational Energy of a Diatomic Molecule}
+
+In the harmonic oscillator approximation:
+
+\[
+E_v = \hbar \omega \left(v + \frac{1}{2}\right),
+\]
+
+where $v = 0,1,2,\dots$
+
+Infrared transitions mainly follow the selection rule:
+
+\[
+\Delta v = \pm 1.
+\]
+
+\subsection{Rotational Energy of a Diatomic Molecule}
+
+For a rigid rotor:
+
+\[
+E_J = B J(J+1),
+\]
+
+with
+
+\[
+B = \frac{\hbar^2}{2I},
+\]
+
+where $J = 0,1,2,\dots$ and $I$ is the moment of inertia.
+
+Selection rule:
+
+\[
+\Delta J = \pm 1.
+\]
+
+The combination of vibrational and rotational transitions leads to rovibrational bands consisting of P- and R-branches.
+
+\subsection{Rovibrational Transitions}
+
+To obtain a spectrum from rotational and vibrational energy levels,
+selection rules must be determined that specify which transitions are
+allowed. These rules follow from the transition dipole moment matrix
+elements
+
+\[
+\left| \langle J' M' | \hat{\mu}_i | J M \rangle \right|^2
+=
+\left|
+\int \psi_{J'M'}^{*}\, \hat{\mu}_i \,\psi_{JM}\, d^3 r
+\right|^2.
+\]
+
+A transition is allowed only if this integral is nonzero. Whether it
+vanishes or not is determined by the symmetry properties of the
+molecular wavefunctions.
+
+For a diatomic molecule in the harmonic oscillator and rigid rotor
+approximation, the selection rules are:
+
+\paragraph{Vibrational}
+\[
+\Delta v = \pm 1
+\]
+
+\paragraph{Rotational}
+\[
+\Delta J = \pm 1
+\]
+
+Since vibrational energy spacings are much larger than rotational
+energy spacings ($E_{\text{vib}} \gg E_{\text{rot}}$), infrared radiation
+excites vibrational and rotational degrees of freedom simultaneously.
+Pure vibrational transitions without rotational contribution are
+therefore not observed.
+
+\subsubsection*{Energy Levels}
+
+Restricting the consideration to transitions from the vibrational
+ground state ($v=0$) to the first excited state ($v=1$), the
+rovibrational energy levels are given by
+
+\[
+E(v,J)
+=
+h \nu_0 \left(v + \frac{1}{2}\right)
++
+B J(J+1),
+\]
+
+where $\nu_0$ is the fundamental vibrational frequency and
+
+\[
+B = \frac{\hbar^2}{2I}
+\]
+
+is the rotational constant.
+
+\subsubsection*{Transition Energies}
+
+The energy difference for a rovibrational transition becomes
+
+\[
+\Delta E = h\nu_0 \pm 2B J.
+\]
+
+Thus, transitions with $\Delta J = +1$ or $\Delta J = -1$ produce
+lines with positive or negative frequency shifts relative to the
+pure vibrational frequency $\nu_0$.
+
+\subsubsection*{Band Structure}
+
+The observed spectrum, known as a rovibrational band, is divided into:
+
+\begin{itemize}
+    \item P-branch ($\Delta J = -1$)
+    \item R-branch ($\Delta J = +1$)
+\end{itemize}
+
+Because transitions with $\Delta J = 0$ are forbidden, no spectral
+line appears exactly at $\nu_0$.
+
+The spacing between neighboring lines is
+
+\[
+\nu(J+1) - \nu(J) = 2B,
+\]
+
+which shows that all lines within a branch are equally spaced.
+
+\subsection{Intensity Distribution and $J_{\text{max}}$}
+
+The intensity distribution within a rovibrational absorption band of a
+diatomic molecule is determined by the thermal population of rotational
+states and their degeneracy.
+
+At thermal equilibrium, the population of a rotational level $J$ follows
+Boltzmann statistics:
+
+\[
+N_J \propto (2J+1)
+\exp\left(-\frac{B J(J+1)}{k_B T}\right).
+\]
+
+The factor $(2J+1)$ accounts for the rotational degeneracy due to the
+possible orientations of the angular momentum.
+
+For small $J$, the degeneracy term dominates and the population
+increases with $J$. For larger $J$, the exponential Boltzmann factor
+becomes dominant and the population decreases again.
+
+Therefore, the line intensities within the P- and R-branches increase
+up to a maximum and then decrease.
+
+To determine the position of the intensity maximum, $J_{\text{max}}$,
+$J$ is treated as a continuous variable and the derivative of the
+population function is set to zero:
+
+\[
+\frac{d}{dJ}
+\left[
+(2J+1)
+\exp\left(-\frac{B J(J+1)}{k_B T}\right)
+\right]
+= 0.
+\]
+
+This leads to the approximate expression
+
+\[
+J_{\text{max}}
+\approx
+\sqrt{\frac{k_B T}{2B}}
+-
+\frac{1}{2}.
+\]
+
+Hence, $J_{\text{max}}$ increases with temperature and decreases
+with increasing rotational constant $B$.
+
+
+\subsection{Fourier-Transform Spectrometer}
+
+A Fourier-Transform Spectrometer (FTIR) is used to measure infrared
+absorption spectra with high spectral resolution and high
+signal-to-noise ratio. Instead of dispersing light into individual
+frequencies, the FTIR records an interferogram in the optical path
+difference domain and converts it into a spectrum by Fourier
+transformation.
+
+\subsubsection*{Principle of Operation}
+
+The central component of an FTIR spectrometer is a Michelson
+interferometer consisting of:
+
+\begin{itemize}
+    \item Infrared source
+    \item Beam splitter
+    \item Fixed mirror
+    \item Movable mirror
+    \item Detector
+\end{itemize}
+
+The beam splitter divides the incoming broadband infrared radiation
+into two beams. One beam is reflected toward a fixed mirror,
+while the other is transmitted toward a movable mirror.
+After reflection, the two beams return to the beam splitter, where they recombine and interfere with each other.
+
+The movable mirror changes position during the measurement, which varies the optical path difference between the two beams in a controlled manner.
+This variation produces constructive and destructive interference depending on the wavelength and path difference. As a result, the detected intensity
+changes as a function of mirror displacement, generating an interference signal called an interferogram. This interferogram contains information about 
+all wavelengths present in the source simultaneously. By applying a Fourier transform to the interferogram, the spectral intensity of the infrared radiation 
+can be obtained as a function of wavenumber.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.63\textwidth]{Michelson_interferometer.jpg}
+    \caption{Schematic setup of a Michelson interferometer
+    used in an FTIR spectrometer.}
+    \label{fig:Michelson interferometer}
+\end{figure}
+
+For a given wavelength, the detected intensity varies with mirror
+position due to constructive and destructive interference. The
+positions of maximum and minimum intensity depend on the wavelength,
+since the phase difference between the interfering beams is determined
+by the optical path difference.
+
+Because the interferometer does not separate wavelengths, the detector
+measures only the total intensity, which is the sum of the contributions
+from all wavelengths present. Thus, the measured signal represents the
+superposition of all spectral components.
+
+If the light source emits $n$ discrete wavelengths, measuring the
+intensity at $n$ different mirror positions provides a system of $n$
+equations that can be solved to determine the spectral intensities.
+Increasing the maximum mirror displacement improves the spectral
+resolution and allows closely spaced wavelengths to be resolved.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{interferogram.jpg}
+    \caption{Examples of spectra (left) and the corresponding interferograms (right)}
+    \label{fig:interferogram}
+\end{figure}
+
+
+\subsection{Lambert--Beer Absorption Law}
+
+According to the Lambert--Beer absorption law, the transmitted intensity
+at frequency $\nu$ after passing through an absorbing medium is given by
+
+\[
+I(\nu) = I_0(\nu)\,
+\exp\left[-k(\nu)\, p \, l \right],
+\]
+
+where
+
+\begin{itemize}
+    \item $I_0(\nu)$ is the incident intensity,
+    \item $I(\nu)$ is the transmitted intensity,
+    \item $k(\nu)$ is the absorption coefficient 
+    \,$[\si{cm^{-1} atm^{-1}}]$,
+    \item $p$ is the gas pressure \,$[\si{atm}]$,
+    \item $l$ is the absorption path length \,$[\si{cm}]$.
+\end{itemize}
+
+
+\subsubsection*{Column Density Form}
+
+Alternatively, the Lambert--Beer law can be expressed in terms of the
+column density $N$:
+
+\[
+I(\nu) = I_0(\nu)\,
+\exp\left[-\beta(\nu)\, N \right],
+\]
+
+where
+
+\begin{itemize}
+    \item $\beta(\nu)$ is the molecular absorption cross section 
+    \,$[\si{cm^{2}}]$,
+    \item $N$ is the column density, i.e.\ the total number of absorbing
+    particles per unit area \,$[\si{cm^{-2}}]$.
+\end{itemize}
+
+\subsubsection*{Absorption Line Strength}
+
+The strength of an absorption line or an entire absorption band is
+obtained by integrating the absorption coefficient over frequency:
+
+\[
+S = \int k(\nu)\, d\nu.
+\]
+
+The integrated line strength $S$ is an intrinsic molecular property and
+is independent of pressure and path length.
+
+
+\subsection{Barometric Altitude Formula}
+
+The barometric altitude formula describes the decrease of atmospheric
+pressure with increasing altitude under the assumption of hydrostatic
+equilibrium and constant temperature.
+
+The pressure at height $h$ is given by
+
+\[
+p(h) = p(h_0)\,
+\exp\left(-\frac{g M (h - h_0)}{R T}\right),
+\]
+
+where
+
+\begin{itemize}
+    \item $p(h)$ is the pressure at altitude $h$,
+    \item $p(h_0)$ is the pressure at reference altitude $h_0$
+          (e.g.\ sea level),
+    \item $g = \SI{9.81}{m\,s^{-2}}$ is the gravitational acceleration,
+    \item $M$ is the molar mass of the gas,
+    \item $R = \SI{8.314}{J\,mol^{-1}\,K^{-1}}$ is the universal gas constant,
+    \item $T$ is the absolute temperature,
+    \item $(h - h_0) = \Delta h$ is the altitude difference.
+\end{itemize}
+
+\subsubsection*{Particle Density}
+
+Using the ideal gas law,
+
+\[
+p = n k_B T,
+\]
+
+the particle number density $n(h)$ becomes
+
+\[
+n(h) = \frac{p(h)}{k_B T(h)}.
+\]
+
+The total number of particles along the atmospheric column is obtained
+by integrating the particle density over height:
+
+\[
+N = \int_0^{h_{\text{max}}} n(h)\, dh.
+\]
+
+\subsubsection*{Temperature Profile in the Troposphere}
+
+In the troposphere (up to approximately \SI{10}{km}),
+the temperature decreases approximately linearly with altitude.
+The average lapse rate is
+
+\[
+\Gamma \approx \SI{6}{K\,km^{-1}}.
+\]
+
+The temperature at altitude $h$ can therefore be approximated by
+
+\[
+T(h) = T(h_0) - \Gamma (h - h_0),
+\]
+
+where
+
+\begin{itemize}
+    \item $T(h)$ is the temperature at altitude $h$,
+    \item $T(h_0)$ is the temperature at sea level,
+    \item $\Gamma$ is the temperature lapse rate.
+\end{itemize}
+
+Above the troposphere, the particle density decreases significantly and
+the temperature profile deviates from this linear approximation.
+
+
+\section{Experimental Methods}
+
+\subsection{Apparatus}
+
+The measurements were performed using a Fourier Transform Infrared (FTIR) spectrometer consisting of:
+
+\begin{itemize}
+    \item Broadband infrared source
+    \item Michelson interferometer
+    \item Beam splitter
+    \item Fixed mirror
+    \item Movable mirror
+    \item Gas cell / atmospheric path
+    \item Infrared detector
+    \item Computer for Fourier transformation
+\end{itemize}
+
+\subsection{Measurement Principle}
+
+The Michelson interferometer splits the incident radiation into two beams. One beam is reflected by a fixed mirror, the other by a movable mirror. The recombined beams interfere depending on the optical path difference.
+The recorded interferogram is Fourier transformed to obtain the spectrum.
+
+
+\subsection{Procedure}
+
+\begin{enumerate}
+    \item The spectrometer was aligned and initialized.
+    \item A background spectrum was recorded.
+    \item Atmospheric air was measured under laboratory conditions.
+    \item Spectra were recorded in the mid-infrared region.
+    \item Interferograms were Fourier transformed by the instrument software.
+    \item Absorbance spectra were obtained by comparison with the background measurement.
+\end{enumerate}
+
+

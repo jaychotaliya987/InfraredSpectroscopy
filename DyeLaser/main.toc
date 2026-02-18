@@ -1,0 +1,18 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil }list of figures}{ii}{section*.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }list of tables}{ii}{section*.3}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What is a Dye LASER?}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Set up of Dye LASER}{1}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Energy levels in dye LASER}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Transitions in dye laser}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Factors depending on laser radiation}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experimental Procedure}{6}{section.3}%
+\contentsline {section}{\numberline {4}Analysis}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Spectrum of dye laser}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Beam Diameter}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Fitting the data}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Example of Gaussian fitting}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}$M^2$ values}{11}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Discussion}{13}{section.5}%
+\contentsline {section}{\numberline {6}Summary}{13}{section.6}%

@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}
+% Graphics
+\usepackage{graphicx} 
+\usepackage{float}
+
+%% Layout
+\usepackage{indentfirst}
+\usepackage[margin = 1.5in, bottom = 2.5cm]{geometry}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+
+\input{titlepage.tex}
+
+
+%Table of contents
+
+\tableofcontents
+\pagenumbering{roman}
+\pagebreak
+
+%% List of Figures
+
+\listoffigures
+\addcontentsline{toc}{section}{\numberline{}list of figures}
+
+
+\listoftables
+\addcontentsline{toc}{section}{\numberline{}list of tables}
+\pagebreak
+
+%% Main Document
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Theory.tex}
+
+\end{document}

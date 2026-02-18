@@ -1,0 +1,443 @@
+\documentclass{article}
+
+% Graphics
+\usepackage{graphicx} 
+\usepackage{float}
+
+%% Layout
+\usepackage{indentfirst}
+\usepackage[margin = 1.5in, bottom = 2.5cm]{geometry}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\cfoot{}
+\rfoot{\thepage}
+
+
+
+
+\begin{document}
+
+\input{titlepage}
+
+%Table of contents
+
+\tableofcontents
+\pagenumbering{roman}
+\pagebreak
+
+%% List of Figures
+
+\listoffigures
+\addcontentsline{toc}{section}{\numberline{}list of figures}
+
+
+\listoftables
+\addcontentsline{toc}{section}{\numberline{}list of tables}
+\pagebreak
+
+%% Main Document
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+\section{Introduction}\label{sec: intro}
+
+
+Experiment A1 (Dye Laser) is all about the setup and measurement of the dye laser. The dye laser setup means adjusting the laser to get improved power output and tuning the laser to measure the spectrum of different wavelengths. After this measurement, the beam diameter is measured from the pictures and finally calculate the $M^2$ value.
+
+
+
+
+\section{Theory}\label{sec: Theory}
+
+This part explains the major theory and concepts required for doing dye laser experiments such as what is dye laser, the setup of a laser, transition, and energy levels of dye laser with figures, and finally, the important factor depending on the laser radiation.
+
+The first part of the experiment is based on the adjustment and commissioning of the dye laser. A conventional laser consists of three basic  components: the laser medium with at least three energy levels, an energy pump that creates the population inversion, and an optical resonator. In this experiment, an organic dye is used for the dye laser, which has wide absorption and emission spectrum. The energy required for exciting the photon is supplied  through optical pumps, and the dye is usually transferred from the ground state to an electronically  excited state by the radiation of another laser. In experiments, another laser having a wavelength of $532nm$ is used to pump the dye laser. 
+
+\subsection{What is a Dye LASER?}\label{What is Dye laser?}
+
+A dye laser is a laser that uses an organic dye as the lasing medium, usually as a liquid solution. Compared to gases and most solid-state lasers, a dye can usually be used for a much wider wavelength and a dye laser operates in a four-level system. These organic dyes usually have high fluorescence therefore they will produce efficient laser radiations.
+
+
+\subsubsection{Set up of Dye LASER}\label{setup of dye laser}
+
+figure \ref{fig: Schematics} shows the setup of the dye laser and figure \ref{fig: Rhodamine 6G} shows the organic dye Rhodamine 6G used in this experiment as the lasing medium.
+
+\begin{figure}
+    \centering
+    \includegraphics{Schematics.png} 
+    \caption[The schematic representation of dye laser] {The schematic representation of dye laser. The cavity of the dye laser lies between the two mirrors m1 and m2 and birefringent filter}{ \small Source: Script dye laser.}
+    
+       
+    \label{fig: Schematics}
+
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics{Rhodamine 6G.png}
+    \caption[organic dye Rhodamine 6G] {The organic dye Rhodamine 6G was used in this experiment.}{\small Source: Wikipedia}
+       
+    \label{fig: Rhodamine 6G}
+
+\end{figure}
+
+\pagebreak
+
+
+\subsection{Energy levels in dye LASER}\label{Energy lvl}
+
+The dye used in this experiment is Rhodamine with the molecular formula $C_2H_8H_3N_2O_3Cl$. The energy diagram of a dye laser is complex. Figure \ref{fig: Energy lvls} shows the four energy levels in this experiment.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{energy lvl .png}
+    \caption[Energy level Diagram of dye laser] {Energy scheme of a dye laser. The excitation is between A and b and the emission between B and a}{\small Source: Script dye laser}
+       
+    \label{fig: Energy lvls}
+
+\end{figure}
+
+These energy levels can be divided into two. They are ground state and singlet state S1. These two energy levels, each of them classified into two sub-levels A and a (ground state) and B and b (singlet state S1).
+
+The photon will be excited from ground state A to the sub-level of singlet state S1 but the lifetime is small so that it will decay spontaneously a radiation-less to state B. This is responsible for the population inversion between levels B and a. This transition leads to the emission of laser radiation. Then it follows another radiation-less transition back to ground state A. Th fast dye jet prevents the transitions from this four-level system to the triplet state.
+
+\pagebreak
+
+\subsection{Transitions in dye laser}\label{Transition}
+
+A laser transition is a transition between two electronic levels of some laser-active ion. In this experiment different rotational and vibrational states occur because of the molecules in the dye which is shown in figure \ref{fig: Emission and absorption}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{Emission and absorption.png}
+    \caption[Emission and absorption] {The absorption, emission, and triplet absorption curve of a dye laser }{\small Source: Script dye laser}
+       
+    \label{fig: Emission and absorption}
+
+\end{figure}
+\subsection{Factors depending on laser radiation}\label{Factores}
+
+The important factors depending on laser radiation are listed here:
+
+\begin{enumerate}
+
+    \item Optical power: Photodiodes and thermocouples are used to measure the optical power of the laser beam.
+    
+    \item Spot diameter: The diameter of the laser beam is measured between two $1/e^2$ points. The intensity of laser radiation in the beam cross-section is below $1/e^2$ of the maximum intensity. The beam waist $\omega$ is defined as the distance between the middle of the Gaussian profile and one of the $1/e^2$ points.
+       If the beam passes through the apertures, the transmission T can be calculated with \ref{equation 1} \\
+
+    \begin{equation}
+        \label{equation 1}
+        T=1-\exp \left(-\frac{2r^2}{\omega^2}\right)
+    \end{equation} 
+    
+        
+    \item Divergence: The angle of divergence $\theta$ can be measured by equation \ref{equation 2}
+
+    \begin{equation}
+        \label{equation 2}
+        \theta = \frac {d_2 - d_1} {l_2 - l_1}  
+    \end{equation} 
+
+\pagebreak
+
+    \item Diffraction factor $M^2$: The diffraction factor M2 is the quotient of the real and the ideal beam parameter product. Mathematically it can be written as equation \ref{equation 3}
+
+    \begin{equation}
+    \label{equation 3}
+        M^2 = \frac{\omega_r \cdot \theta_r}{\omega_0 \cdot \theta_0} = \frac{\lambda\omega_r \cdot \theta_r}{\pi}
+    \end{equation}\\
+
+
+\end{enumerate}
+
+
+
+The curvature $R(z)$ of a Gaussian mode can be written with Rayleigh parameter $z_0$ as \ref{equation 4}
+
+\begin{equation}
+    \label{equation 4}
+    R_r (z) = z \cdot \left[1 + \left(\frac{z_0} {z}\right)^2\right]
+\end{equation}\\
+
+The diffraction factor $M^2$ can be used to specify the curvature radius of the real laser beam can be calculated from \ref{equation 5}
+
+\begin{equation}
+    \label{equation 5}
+    R_r (z) = z \cdot \left[1 + \left(\frac{\pi\omega_r ^2} {2\pi M^2}\right)^2\right]
+\end{equation}\\
+
+The beam waist of the real laser beam with respect to $z$ is:
+
+\begin{equation}
+    \label{equation 6}
+    \omega_r(z) = \omega_r \cdot \sqrt{1+\frac{z\lambda M^2}  {\pi \omega_r^2}}
+\end{equation}
+
+\pagebreak
+
+\section{Experimental Procedure}\label{Procedure}
+
+\begin{enumerate}
+    \item Primary adjustment\\
+    
+    
+    The first step of the dye laser was the setup of the laser such as adjusting the dye laser mirror to produce the laser radiation. Furthermore, one can make more adjustments to improve the output power of the laser.\\
+    
+    \item The use of Lyot filter \\
+    
+    
+    It is important to use a Lyot filter for the wavelength selection. After this part one can again tune the laser to improve the power output.\\
+
+    \item Placing of the Spectrometer \\
+    
+    
+    A spectrometer was pointed at the detector to measure the difference in wavelength, some spectral measurements are taken and the wavelength of the dye laser got varied in between this.\\
+
+    \item Determination of $M^2$ \\     
+    
+    
+    The last part of the experiment is to determine whether the laser beam was close to the Gaussian beam. For this, the laser beam gets transferred through two mirrors with an adjustment to the laser beam gets passed through the pinholes, between these, a lens is placed in variable positions and also the camera was placed. About 36 pictures were taken which is used to measure beam diameter and finally determine the $M^2$ value. \\
+    
+    
+\end{enumerate}
+
+\pagebreak
+
+
+
+
+\section{Analysis}\label{Analysis}
+
+We have measured the spectrum of the dye Laser in the experiment and the data is presented forward. We have also determined the beam diameter and $M^2$ value.
+
+\subsection{Spectrum of dye laser}
+
+We have carried out 24 readings of the power output with the corresponding wavelength. The first reading was taken at the first visible peak. The wavelength of the visible peak was 566.12$nm$ (Green). As we keep on increasing the wavelength by the Lloyd filter, we have seen that the power output of the laser keeps on increasing. The Maximum peak of the power output was at wavelength = 576.52$nm$ (Orange). After the peak, the power output of the laser started decreasing with respect to Wavelength. The last measured peak was at the wavelength 592.28$nm$ (Red). All of the reading is displayed in figure \ref{fig: Spectrum}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics [height=4in] {Spectrum.png}
+    \caption{Graph of the spectrum of the dye laser.}
+    \label{fig: Spectrum}
+\end{figure}
+
+ The range of output wavelengths is between 566.12$nm$ to 592.28$nm$. Hence, the tunability range is 26.16$nm$.
+ 
+\pagebreak
+
+ The wavelength of the laser is also related to the power output of the laser. The table of the power output reading is shown below. 
+ 
+
+\begin{table}[h!]
+\centering
+    
+    \begin{tabular}{ c | c c }
+ 
+        NO OF OBSERVATIONS   &	WAVELENGTH [NM]  &	POWER [MW] ± 1MW \\
+         \hline
+         1.	&   566.12  & 2.2 \\
+         2.	&   566.42  & 7.7\\
+         3.	&   566.72  & 15\\
+         5.	&   570.04	& 57.2\\
+         6.	&	571.54	& 65.4\\
+         7.	&	572.6	& 70\\
+         8.	& 	573.35	& 76.1\\
+         9.	&	574.72	& 79.1\\
+         10.	&	576.52	& 82.3\\
+         11.	& 	578.94	& 80.1\\
+         12.	&	579.85	& 79.2\\
+         13.	&	580.45	& 78.5\\
+         14.	& 	582.88	& 72\\
+         15.	& 	583.33	& 63.2\\
+         16.	&	584.69	& 53.1\\
+         17.	& 	585.75	& 46.5\\
+         18.	& 	586.97	& 38.5\\
+         19.	&	587.88	& 30.7\\
+         20.	&	589.39	& 24.5\\
+         21.	&	592.28	& 11.9\\
+
+    \end{tabular}
+
+
+\caption{Table of wavelength and power output}
+\label{}{tab: power vs. wavelength}
+
+\end{table}
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3.3in]{Lambda vs power.png}
+    \caption{Shows the dependencies of the $\lambda$ and Power output.}
+    \label{fig: wavelength vs. power output}
+\end{figure}
+
+
+The range of the power output produced by the laser was from 2.2$MW$ (minimum) to 82.3$MW$ (maximum )with $\pm 1MW$
+
+The power output shows the same characteristics as the wavelength, it first started increasing and after some reading, the power output was maximum and then it started decreasing. The maximum power output observed was 82.3$MW$. The illustrated graph of wavelength vs. power output is shown in figure \ref{fig: wavelength vs. power output}.
+
+\subsection{Beam Diameter}\label{Beam Diameter}
+
+We have cropped the picture to the size of 300x300 pixels. We have converted the image into a monochromatic picture. We have obtained the pixel values of the picture for every row and column of the picture and added x-values and y-values to get the Gaussian distribution of the pixel values. We then fit the Gaussian to the pixel values and get the $M^2$ values.
+
+\subsection{Fitting the data}\label{Fitting}
+
+We have used python code and the sci-py library to fit the Gaussian to the pixel values. The Gaussian used was of the form:
+
+\begin{equation}
+\label{equation 7}
+    f\left(x,A,\mu,\sigma\right)=Ae^{\left(-\left(x-\mu\right)^2\right)/\sigma^2}
+\end{equation}
+
+We fitted the Gaussian to all pictures taken and obtained spot size. The pixel size of the camera was 3 $\mu m/px$. To get the $1/e^2$  beam diameters for both axes, the formula:
+ \begin{equation}
+ \label{equation 8}
+     \left(1/e^2\right)_{x/y}=2\sigma_{x/y}\bullet\sqrt{2\ ln\ 2}\bullet3\ \ \mu m/px
+ \end{equation}
+
+The table below shows the values of spot size with respect to lens distances:
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c| c  c}
+        d in cm	& $(1/e_x)^2$ in $\mu m$ & $(1/e_y)^2$ in $\mu m$\\
+        \hline
+	10 & 1022.932785 &	1045.030322\\
+	11 & 854.2846577 &	829.40919\\
+	12 & 851.3275745 &	820.3366393\\
+	13 & 809.5144671 &	810.4415952\\
+	14 & 747.5171561 &	691.5327166\\
+	15 & 550.263229	 & 584.9463884\\
+	16 & 531.9866073 &	522.2198378\\
+	17 & 470.4861111 &	475.3483843\\
+	18 & 433.1232237 &	431.324234\\
+	19 & 393.718327	 & 399.0322416\\
+	20 & 364.3577677 &	334.1196819\\
+	21 & 323.4453223 &	279.3100017\\
+	22 & 302.0875691 &	206.3710556\\
+	23 & 270.2523033 &	152.8811722\\
+	24 & 241.9997352 &	253.89327\\
+	25 & 256.4155031 &	306.6907792\\
+	26 & 263.9689474 &	351.1754427\\
+	27 & 265.4395433 &	361.2079264\\
+	28 & 288.6935359 &	406.9258077\\
+	29 & 302.324432	 &  390.864732\\
+	30 & 325.3243244 &	371.5040824\\
+	31 & 357.5809338 &	354.7696595\\
+
+    \end{tabular}
+    \caption{Relation of beam diameter $(1/e_{x/y})^2$ with lens distances}
+    \label{tab: Exy with Distances}
+    
+\end{table}
+
+These table values are plotted in the \ref{fig: E values}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{DxDy.png}
+    \caption{The plot of $1/e^2$ values obtained from the Gaussian fit of the image data} 
+    \label{fig: E values}
+\end{figure}
+
+\subsection{Example of Gaussian fitting}\label{Example}
+
+Here is the reference of the fitting done on every picture. We have taken the reference at the D =25$cm$. because it agrees both $x$ and $y$ spot sizes agree with each other. 
+
+The monochromatic picture of the beam is shown in picture \ref{fig: Monochromatic}
+The Fit to the image data (pixel values) is fitted with the Gaussian and it is shown in the figure \ref{fig: Gaussian}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{Monochromatic.png}
+    \caption{Monochromatic picture of a beam at a distance = 25cm.}
+    \label{fig: Monochromatic}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{Gaussian Fit.png}
+    \caption{Gaussian fit to the image \ref{fig: Monochromatic}}. {We can see that the Gaussian is fitting nicely to the image data.}
+    \label{fig: Gaussian}
+\end{figure}
+
+\subsection{$M^2$ values}\label{M^2 values}
+
+After knowing beam diameter $d(z)$ we can fit the function \ref{equation 9} to the beam square diameters and get the $M^2$ values.
+
+\begin{equation}
+    \label{equation 9}
+    d^2 (z) = d_o ^2 (z) + M^4 (\frac{\lambda}{\pi d_o(z)}) \cdot (z - z_not)^2
+\end{equation}
+
+By matching beam waist position $z_0$, beam waist diameter $d_0$, and the $M^2$ value. This is done for each axis. The $\lambda$ is chosen to be 576.56 NM because that corresponds to the maximum wavelength. The squared data is shown in \ref{fig: data fitted}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3in]{DxDyFitted.png}
+    \caption{Parabolic Fitting of the $1/e ^2$ to obtain the optimal parameters to get the $m^2$ values.}
+    \label{fig: data fitted}
+\end{figure}
+
+ The obtained values for $M^2$, $d_o ^2$, and $z_o$ are listed in the table (\ref{tab: Final}) 
+ below.
+
+ \begin{table}[H]
+     \centering
+     \begin{tabular}{c|c  c  c}
+         & $z_o$  in $\mu m$ &  $d_o ^2$ in cm & $M^2$\\
+         \hline
+         $(1/e ^2)_x$  &  3.19 &  25.43$\pm$ 0.10 & 2.359  \\
+         $(1/e ^2)_y$  &  3.69 &  24.24$\pm$ 0.19  & 2.64 \\
+     \end{tabular}
+     \caption{Obtained values for parameters $M^2$, $d_o ^2$, and $z_o$}
+     \label{tab: Final}
+ \end{table}
+The errors in $M^2$ and $z_o$ are greater than $10^{-10}$ and hence they are not shown in the table above.
+
+\pagebreak
+
+  \section{Discussion}\label{Discusssion}
+
+In the first part of the experiment, we measured the power output with respect to the wavelength. The wavelength range of the dye laser was measured to be 566.12$nm$ to 592.28$nm$. Hence, the tunability range is 26.16$nm$. The power output measured was from 2.2$MW$ (minimum) to 82.3$MW$ (maximum) with $\pm 1MW$ for both maximum and minimum. The measurements of the  first part were successful but for the second part the pictures taken had noise and we didn't observe the parabolic nature in  $(1/e^2)_{x/y}$  graph with the images obtained by us. This can be because of the excessive photon noises while taking the picture or because of the stability of the jet.
+
+We were then provided with the new image data and with that data we acquired the results listed in \ref{tab: Final}.  The $M^2$ values are more than 2 which shows us the deviation of the beam from the Gaussian beam. 
+
+\section{Summary}\label{summary}
+
+In this experiment, we observed the beam quality factor ($M^2$), power output range, and wavelength range. The wavelength of the dye laser varied from 566.12 $nm$ to 592.28 $nm$. The power output varied from 2.2$MW$ to 82.3$MW$. The maximum power output was at $\lambda = 576.52 nm$. The beam waist size and $M^2$
+ values of the dye laser are again shown in the table below:
+
+ \begin{table}[H]
+     \centering
+     \begin{tabular}{c|c  c  }
+         &  $d_o ^2$ in cm & $M^2$\\
+         \hline
+         $(1/e ^2)_x$  &   25.43$\pm$ 0.10 & 2.359  \\
+         $(1/e ^2)_y$  &  24.24$\pm$ 0.19  & 2.64 \\
+     \end{tabular}
+     \caption{Obtained values for parameters $M^2$, $d_o ^2$}
+     \label{tab: Final}
+ \end{table}
+
+ 
+ \section*{References}\label{References}
+
+ \begin{enumerate}
+     \item  Script Farbstofflaser“, Moodle course phys-f-prak“, 11.11.2022.
+     \item  \href{https://machinelearningmastery.com/curve- 
+            fitting-with-python/}{Curve fitting with Python}
+     \item  \href{https://www.youtube.com/watch?v=WB6S5qqhSUc} 
+            {Beam Parameter Product and beam quality}
+ \end{enumerate}
+
+\end{document}
