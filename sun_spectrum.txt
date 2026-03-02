@@ -1,6 +1,3 @@
-<?xml version="1.0"?>
-<Overlays Name="sun spectrum IR.ovr" Version="Pgopher 7.1.108 13 Sep 2010 11:13">
-  <ExperimentalPlot Name="Sonnenspektrum FTIR.dat" Comment="C:\Users\Administrator\Desktop\Sonnenspektrum FTIR.dat" Colour="Green">    <![CDATA[
 402.89106 0.00126
 402.9212 0.00298
 402.95133 0.00303
@@ -252093,6 +252090,3 @@
 7999.89944 0.0014
 7999.92958 0.00144
 7999.95972 0.00149
-]]>
-</ExperimentalPlot>
-</Overlays>
