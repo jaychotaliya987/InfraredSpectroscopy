@@ -1,0 +1,138 @@
+
+\section{Evaluation of the measured spectra}
+
+After performing the experiment, we obtained the spectra of $N_2O$ and lab air. Due to the unclear
+weather we were not able to obtain the spectrum of the sun. But the required sun spectra were then
+handed to us. The following section will evaluate the spectra.
+
+\subsection{Description of the spectra}\label{Subsec: Spectra}
+
+The absorption spectrum of sun is typical for infrared (IR) region spectrum with distict absorption bands of $CO_2$ and $H_2O$.
+In the spectrum of lab air we also see the absorption bands of $CO_2$ and $H_2O$. But they are much less pronounced because
+the path length of the light through atmosphere is much higher then the path length of the light through lab air. 
+
+The solar spectra have the maximum at the wavenumber of $2615.67 cm^{-1}$. This is 
+not consistent with the expected blackbody radiation maximum. That is because we are measuring the
+spectrum in the infrared. This is out of the maximum of the sun's peak radiation output.
+The second reason is the atmosphere of the earth. Earth absorbs lots of radiation and hence shifts the
+maximum to unrealistic values. This will further complicates the calculation of the true maximum of the 
+sun's spectrum.
+
+In addition to that the sensitivity of the instrument is different for different wavenumbers. Which also
+adds to the shift of the maximum.
+
+The spectrum is also dense with absorption bands. This is caused by typical IR absorbing molecules. This can be seen in the
+figure \ref{fig: SunSpectra}.
+
+
+\begin{figure} [H]
+    \centering
+    \includegraphics [width=0.80\textwidth] {SunSpectra.png} 
+    \caption [Sun Spectra] {Absorption spectra of the sun with dense regions of absorption bands.}
+    \label{fig: SunSpectra}
+\end{figure}
+
+The spectrum of sun is very wide compared to the other two, spanning from 300 $cm^{-1}$ to 8000 $cm^{-1}$. 
+This gives us limited comparison of the spectra. We managed to identify 3 most prominent absorption bands. 
+In the figure \ref{fig: Molecular_Regions} we have identified the corresponding molecules responsible for the absorption 
+bands. The most prominent is water. Because of it's V-shaped structure it has many vibrational modes. Which are 
+$3N - 6$ for non-linear molecules. Because of 3 fundamental vibrations, $H_2O$ has no clear P and R branches compared 
+to $CO_2$. Which is second molecule we found. The visible P and R branches are result of the linear structure of $CO_2$.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics [width=0.80\textwidth] {Molecular_Regions.png} 
+    \caption [Molecular Regions Highlighted] {This is the comparison of the spectra of sun(top), $N_2O$, and lab air
+    , showing absorption bands. }
+    \label{fig: Molecular_Regions}
+
+\end{figure}
+
+
+
+
+\subsection{Blackbody Temperature} \label{Subsec: BlackBody}
+
+With the help of intensity maximum of the sun spectra we can calculate the temperature of the sun. Which is given by the
+Wien's displacement law:
+
+\begin{equation}
+    \lambda_{\text{max}} = \frac{b}{T}
+\end{equation}
+
+with $b = 0.29 cm\cdot K$.
+
+With the maximum of the spectrum at $2615.67 cm^{-1}$, the temperature of the sun came out to be $758.54 K$.
+This is much lower than actual temperature of the sun which is around $5772 K$. This is because of the reasons
+mentioned in the previous section \ref{Subsec: Spectra}.
+
+In addition to that we also calculated the temperature of the lab air and $N_2O$ using the same method. 
+The temperatures came out to be $527.69 K$ and $415.2 K$. This again is lower than the actual temperature of the
+laser used for the experiment which is around $1000 K$. For this the reason is most likely the sensitivity of the instrument.
+
+\subsection{Identification of the molecules}\label{Subsec: molecules}
+
+By closely examining the solar spectra we found lot of absorption bands with P and R branches. The results are listed in a table
+\ref{tab: Band Origins}
+
+\begin{table}[ht]
+\centering
+
+\begin{tabular}{c | c | c}
+\textbf{Observed Band Origin} (\si{cm^{-1}}) & \textbf{Literature Value} (\si{cm^{-1}}) & \textbf{Identified Molecule} \\
+\hline
+2462.6 & 2461.5 & N$_2$O \\
+2563.3 & 2563.5 & N$_2$O \\
+4855.5 & 4860.5 & CO$_2$ \\
+4977.8 & 4983.5 & CO$_2$ \\
+6228.4 & 6231.0 & CO$_2$ \\
+6345.8 & 6351.0 & CO$_2$ \\
+\end{tabular}
+
+\caption{Observed and Literature Band Origins of Atmospheric Trace Gases}
+\label{tab: Band Origins}
+\end{table}
+
+Apart from the usual candidates we also found the absorption band near $1044.3 cm^{-1}$. This band was too hard to ignore with a prominent 
+P and R branch figure:\ref{fig: Ozone} As for what molecule this band is from, We are not sure. Only molecule with strong band at this
+wavenumber is ozone. But ozone is not linear and hence should not have such clear P and R branches.
+In literature we see the band of ozone at $1042 cm^{-1}$ \cite{amt-7-609-2014}. This is close to our observation but we are not sure.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics [width=0.60\textwidth] {Ozone.png} 
+    \caption [Absorption Band] {Absorption band of with P and R branches.}
+    \label{fig: Ozone}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

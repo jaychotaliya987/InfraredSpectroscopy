@@ -17,21 +17,21 @@ In this experiment, infrared absorption spectra of atmospheric gases were measur
 
 The infrared region spans approximately
 
-\[
+\begin{equation}
 \lambda \approx 0.7\,\mu\text{m} \; \text{to} \; 1000\,\mu\text{m}.
-\]
+\end{equation}
 
 In spectroscopy, the wavenumber $\tilde{\nu}$ is commonly used:
 
-\[
+\begin{equation}
 \tilde{\nu} = \frac{1}{\lambda}.
-\]
+\end{equation}
 
 Molecular vibrational transitions typically occur in the mid-infrared region:
 
-\[
+\begin{equation}
 4000 \text{--} 400 \,\text{cm}^{-1}.
-\]
+\end{equation}
 
 \subsection{Molecular Degrees of Freedom}
 
@@ -56,53 +56,53 @@ Vibrational degrees of freedom:
 
 Examples:
 
-CO$_2$ (linear, $N=3$):
-\[
+$CO_2$ (linear, $N=3$):
+\begin{equation}
 3N - 5 = 4 \text{ vibrational modes}
-\]
+\end{equation}
 
 H$_2$O (nonlinear, $N=3$):
-\[
+\begin{equation}
 3N - 6 = 3 \text{ vibrational modes}
-\]
+\end{equation}
 
 \subsection{Vibrational Energy of a Diatomic Molecule}
 
 In the harmonic oscillator approximation:
 
-\[
+\begin{equation}
 E_v = \hbar \omega \left(v + \frac{1}{2}\right),
-\]
+\end{equation}
 
 where $v = 0,1,2,\dots$
 
 Infrared transitions mainly follow the selection rule:
 
-\[
+\begin{equation}
 \Delta v = \pm 1.
-\]
+\end{equation}
 
 \subsection{Rotational Energy of a Diatomic Molecule}
 
 For a rigid rotor:
 
-\[
+\begin{equation}
 E_J = B J(J+1),
-\]
+\end{equation}
 
 with
 
-\[
+\begin{equation}
 B = \frac{\hbar^2}{2I},
-\]
+\end{equation}
 
 where $J = 0,1,2,\dots$ and $I$ is the moment of inertia.
 
 Selection rule:
 
-\[
+\begin{equation}
 \Delta J = \pm 1.
-\]
+\end{equation}
 
 The combination of vibrational and rotational transitions leads to rovibrational bands consisting of P- and R-branches.
 
@@ -113,13 +113,13 @@ selection rules must be determined that specify which transitions are
 allowed. These rules follow from the transition dipole moment matrix
 elements
 
-\[
+\begin{equation}
 \left| \langle J' M' | \hat{\mu}_i | J M \rangle \right|^2
 =
 \left|
 \int \psi_{J'M'}^{*}\, \hat{\mu}_i \,\psi_{JM}\, d^3 r
 \right|^2.
-\]
+\end{equation}
 
 A transition is allowed only if this integral is nonzero. Whether it
 vanishes or not is determined by the symmetry properties of the
@@ -129,14 +129,14 @@ For a diatomic molecule in the harmonic oscillator and rigid rotor
 approximation, the selection rules are:
 
 \paragraph{Vibrational}
-\[
+\begin{equation}
 \Delta v = \pm 1
-\]
+\end{equation}
 
 \paragraph{Rotational}
-\[
+\begin{equation}
 \Delta J = \pm 1
-\]
+\end{equation}
 
 Since vibrational energy spacings are much larger than rotational
 energy spacings ($E_{\text{vib}} \gg E_{\text{rot}}$), infrared radiation
@@ -150,19 +150,20 @@ Restricting the consideration to transitions from the vibrational
 ground state ($v=0$) to the first excited state ($v=1$), the
 rovibrational energy levels are given by
 
-\[
+\begin{equation}
 E(v,J)
 =
 h \nu_0 \left(v + \frac{1}{2}\right)
 +
 B J(J+1),
-\]
+\end{equation}
 
 where $\nu_0$ is the fundamental vibrational frequency and
 
-\[
+\begin{equation}
 B = \frac{\hbar^2}{2I}
-\]
+\end{equation}
+
 
 is the rotational constant.
 
@@ -170,9 +171,10 @@ is the rotational constant.
 
 The energy difference for a rovibrational transition becomes
 
-\[
-\Delta E = h\nu_0 \pm 2B J.
-\]
+\begin{equation}
+    \Delta E = h\nu_0 \pm 2B J.
+\end{equation}
+
 
 Thus, transitions with $\Delta J = +1$ or $\Delta J = -1$ produce
 lines with positive or negative frequency shifts relative to the
@@ -192,9 +194,9 @@ line appears exactly at $\nu_0$.
 
 The spacing between neighboring lines is
 
-\[
+\begin{equation}
 \nu(J+1) - \nu(J) = 2B,
-\]
+\end{equation}
 
 which shows that all lines within a branch are equally spaced.
 
@@ -207,10 +209,10 @@ states and their degeneracy.
 At thermal equilibrium, the population of a rotational level $J$ follows
 Boltzmann statistics:
 
-\[
+\begin{equation}
 N_J \propto (2J+1)
 \exp\left(-\frac{B J(J+1)}{k_B T}\right).
-\]
+\end{equation}
 
 The factor $(2J+1)$ accounts for the rotational degeneracy due to the
 possible orientations of the angular momentum.
@@ -226,24 +228,25 @@ To determine the position of the intensity maximum, $J_{\text{max}}$,
 $J$ is treated as a continuous variable and the derivative of the
 population function is set to zero:
 
-\[
-\frac{d}{dJ}
+\begin{equation}
+    \frac{d}{dJ}
 \left[
 (2J+1)
 \exp\left(-\frac{B J(J+1)}{k_B T}\right)
 \right]
 = 0.
-\]
+\end{equation}
+
 
 This leads to the approximate expression
 
-\[
+\begin{equation}
 J_{\text{max}}
 \approx
 \sqrt{\frac{k_B T}{2B}}
 -
 \frac{1}{2}.
-\]
+\end{equation}
 
 Hence, $J_{\text{max}}$ increases with temperature and decreases
 with increasing rotational constant $B$.
@@ -321,10 +324,10 @@ resolution and allows closely spaced wavelengths to be resolved.
 According to the Lambert--Beer absorption law, the transmitted intensity
 at frequency $\nu$ after passing through an absorbing medium is given by
 
-\[
+\begin{equation}
 I(\nu) = I_0(\nu)\,
 \exp\left[-k(\nu)\, p \, l \right],
-\]
+\end{equation}
 
 where
 
@@ -343,10 +346,10 @@ where
 Alternatively, the Lambert--Beer law can be expressed in terms of the
 column density $N$:
 
-\[
+\begin{equation}
 I(\nu) = I_0(\nu)\,
 \exp\left[-\beta(\nu)\, N \right],
-\]
+\end{equation}
 
 where
 
@@ -362,9 +365,9 @@ where
 The strength of an absorption line or an entire absorption band is
 obtained by integrating the absorption coefficient over frequency:
 
-\[
+\begin{equation}
 S = \int k(\nu)\, d\nu.
-\]
+\end{equation}
 
 The integrated line strength $S$ is an intrinsic molecular property and
 is independent of pressure and path length.
@@ -378,10 +381,10 @@ equilibrium and constant temperature.
 
 The pressure at height $h$ is given by
 
-\[
+\begin{equation}
 p(h) = p(h_0)\,
 \exp\left(-\frac{g M (h - h_0)}{R T}\right),
-\]
+\end{equation}
 
 where
 
@@ -400,22 +403,24 @@ where
 
 Using the ideal gas law,
 
-\[
-p = n k_B T,
-\]
+\begin{equation}
+    p = n k_B T,
+\end{equation}
+
 
 the particle number density $n(h)$ becomes
 
-\[
-n(h) = \frac{p(h)}{k_B T(h)}.
-\]
+\begin{equation}
+    n(h) = \frac{p(h)}{k_B T(h)}.
+\end{equation}
+
 
 The total number of particles along the atmospheric column is obtained
 by integrating the particle density over height:
 
-\[
-N = \int_0^{h_{\text{max}}} n(h)\, dh.
-\]
+\begin{equation}
+    N = \int_0^{h_{\text{max}}} n(h)\, dh.
+\end{equation}
 
 \subsubsection*{Temperature Profile in the Troposphere}
 
@@ -423,15 +428,15 @@ In the troposphere (up to approximately \SI{10}{km}),
 the temperature decreases approximately linearly with altitude.
 The average lapse rate is
 
-\[
+\begin{equation}
 \Gamma \approx \SI{6}{K\,km^{-1}}.
-\]
+\end{equation}
 
 The temperature at altitude $h$ can therefore be approximated by
 
-\[
+\begin{equation}
 T(h) = T(h_0) - \Gamma (h - h_0),
-\]
+\end{equation}
 
 where
 
@@ -444,6 +449,7 @@ where
 Above the troposphere, the particle density decreases significantly and
 the temperature profile deviates from this linear approximation.
 
+\newpage
 
 \section{Experimental Methods}
 
@@ -462,11 +468,11 @@ The measurements were performed using a Fourier Transform Infrared (FTIR) spectr
     \item Computer for Fourier transformation
 \end{itemize}
 
+
 \subsection{Measurement Principle}
 
 The Michelson interferometer splits the incident radiation into two beams. One beam is reflected by a fixed mirror, the other by a movable mirror. The recombined beams interfere depending on the optical path difference.
 The recorded interferogram is Fourier transformed to obtain the spectrum.
-
 
 \subsection{Procedure}
 
@@ -479,4 +485,4 @@ The recorded interferogram is Fourier transformed to obtain the spectrum.
     \item Absorbance spectra were obtained by comparison with the background measurement.
 \end{enumerate}
 
-
+\newpage

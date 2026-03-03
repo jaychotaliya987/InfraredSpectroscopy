@@ -1,48 +1,56 @@
-\documentclass{article}
+\documentclass[12pt]{article} % Added font size for readability
 
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb}
 \usepackage{siunitx}
-% Graphics
 \usepackage{graphicx} 
 \usepackage{float}
+\usepackage{cite}
+\usepackage{booktabs} % Highly recommended for the tables we made earlier
 
 %% Layout
 \usepackage{indentfirst}
-\usepackage[margin = 1.5in, bottom = 2.5cm]{geometry}
+\usepackage[margin=1in, bottom=2.5cm]{geometry} % Standard 1-inch margins usually look better
 \usepackage{enumerate}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref} % hidelinks removes the ugly red boxes around links
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\fancyhf{} % Clear all headers/footers
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\cfoot{}
-\rfoot{\thepage}
+\rhead{\leftmark} % Puts section name in header
+\rfoot{Page \thepage}
 
 \begin{document}
 
+% --- Title Page ---
+% Ensure titlepage.tex exists in the same folder
 \input{titlepage.tex}
 
-
-%Table of contents
-
-\tableofcontents
+% --- Front Matter ---
 \pagenumbering{roman}
-\pagebreak
-
-%% List of Figures
+\tableofcontents
+\newpage
 
 \listoffigures
-\addcontentsline{toc}{section}{\numberline{}list of figures}
-
+\addcontentsline{toc}{section}{List of Figures}
 
 \listoftables
-\addcontentsline{toc}{section}{\numberline{}list of tables}
-\pagebreak
+\addcontentsline{toc}{section}{List of Tables}
+\newpage
 
-%% Main Document
+% --- Main Content ---
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
 \input{Theory.tex}
+\input{Results.tex}
+
+\newpage
+% --- Bibliography ---
+
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}
