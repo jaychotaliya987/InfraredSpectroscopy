@@ -1,5 +1,5 @@
 
-\section{Introduction}\label{sec: intro}
+\section{Introduction}\label{Sec: Intro}
 
 The Earth's radiative balance is strongly influenced by the absorption of infrared (IR) radiation by atmospheric trace gases. While the atmosphere is largely transparent to incoming solar radiation in the visible range, several molecular species absorb outgoing terrestrial radiation in the infrared spectral region. This absorption process forms the physical basis of the greenhouse effect.
 
@@ -11,7 +11,7 @@ Greenhouse gases such as CO$_2$, H$_2$O, and CH$_4$ possess vibrational modes th
 
 In this experiment, infrared absorption spectra of atmospheric gases were measured using a Fourier Transform Infrared (FTIR) spectrometer. The aim was to identify characteristic absorption bands of greenhouse gases and relate these spectral features to molecular structure and the physical mechanism of the greenhouse effect.
 
-\section{Theoretical Background} \label{Theoretical Background}
+\section{Theoretical Background} \label{Sec: Theory}
 
 \subsection{Infrared Region} \label{Infrared Regions}
 
@@ -162,6 +162,7 @@ where $\nu_0$ is the fundamental vibrational frequency and
 
 \begin{equation}
 B = \frac{\hbar^2}{2I}
+\label{equation: MOI}
 \end{equation}
 
 
@@ -200,7 +201,7 @@ The spacing between neighboring lines is
 
 which shows that all lines within a branch are equally spaced.
 
-\subsection{Intensity Distribution and $J_{\text{max}}$}
+\subsection{Intensity Distribution and $J_{\text{max}}$} \label{Subsec: IntensityDistribution}
 
 The intensity distribution within a rovibrational absorption band of a
 diatomic molecule is determined by the thermal population of rotational
@@ -246,6 +247,7 @@ J_{\text{max}}
 \sqrt{\frac{k_B T}{2B}}
 -
 \frac{1}{2}.
+\label{equation:Temperature of gas}
 \end{equation}
 
 Hence, $J_{\text{max}}$ increases with temperature and decreases
@@ -288,7 +290,7 @@ can be obtained as a function of wavenumber.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.63\textwidth]{Michelson_interferometer.jpg}
-    \caption{Schematic setup of a Michelson interferometer
+    \caption[FTIR Schematic of Spectrometer]{Schematic setup of a Michelson interferometer
     used in an FTIR spectrometer.}
     \label{fig:Michelson interferometer}
 \end{figure}
@@ -314,12 +316,12 @@ resolution and allows closely spaced wavelengths to be resolved.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{interferogram.jpg}
-    \caption{Examples of spectra (left) and the corresponding interferograms (right)}
+    \caption[Spectra and Interferograms]{Examples of spectra (left) and the corresponding interferograms (right)}
     \label{fig:interferogram}
 \end{figure}
 
 
-\subsection{Lambert--Beer Absorption Law}
+\subsection{Lambert--Beer Absorption Law} \label{Subsec: LambertBeer}
 
 According to the Lambert--Beer absorption law, the transmitted intensity
 at frequency $\nu$ after passing through an absorbing medium is given by
@@ -349,6 +351,7 @@ column density $N$:
 \begin{equation}
 I(\nu) = I_0(\nu)\,
 \exp\left[-\beta(\nu)\, N \right],
+\label{Equation: Lambert-Beer Law - coloumn form}
 \end{equation}
 
 where
@@ -384,6 +387,7 @@ The pressure at height $h$ is given by
 \begin{equation}
 p(h) = p(h_0)\,
 \exp\left(-\frac{g M (h - h_0)}{R T}\right),
+\label{equation: Pressure with altitude}
 \end{equation}
 
 where
@@ -412,6 +416,7 @@ the particle number density $n(h)$ becomes
 
 \begin{equation}
     n(h) = \frac{p(h)}{k_B T(h)}.
+    \label{Equation: Ideal Gas Law}
 \end{equation}
 
 

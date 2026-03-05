@@ -1,19 +1,24 @@
 # Fdb version 4
-["bibtex main"] 1772559133.30409 "main.aux" "main.bbl" "main" 1772559385.25794 0
-  "./references.bib" 1772559089 529 a6ed4be88012cd6be1084a2636bf0a50 ""
+["bibtex main"] 1772723048.42086 "main.aux" "main.bbl" "main" 1772723048.7706 2
+  "./references.bib" 1772719487 691 b27cbec7aa08cb25b6a5e7d884bb1a51 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1730815969 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1772559384 5104 c119ef3ea94586bba07b25551346a976 "pdflatex"
+  "main.aux" 1772723048 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772559383.38043 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1772559385.25857 0
+["pdflatex"] 1772723043.87853 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1772723047.81678 2
   "Michelson_interferometer.jpg" 1771424970 100336 3fc4b2eb87b7e3bca26358c1a7fdd77e ""
   "Molecular_Regions.png" 1771438124 95016 6e713397c51f3e88d248841c71c2d99c ""
+  "N2OBand1.png" 1772640503 3068070 f2446196637370a14e8d30a43a787f27 ""
+  "N2OBand3.png" 1772462117 31017 d3ce9a990c957a2091441626ad9ea6f4 ""
+  "N2OBand4.jpeg" 1772642269 79560 2c48de4ccf16fd7fe6e9588efd7c21d1 ""
+  "N2O_Band_Integration.png" 1772721646 423698 02e1bf07c78f702aaf4defb804a8f53a ""
   "Ozone.png" 1772557232 13813 5c7dca2d14c6ce039b0c386725be6e21 ""
-  "Results.tex" 1772559382 5291 d7b1a6945f7a9456622c24e6edb5871f ""
+  "Particle_density.png" 1772721606 134218 4667fb200992908aec9fb5fb8e1e2e02 ""
+  "Results.tex" 1772723043 10767 3ae1bddb6cd0041404f9906d84aa7059 ""
   "SunSpectra.png" 1771433658 23762 54b755abd3878c48d0cf90ed309182d0 ""
-  "Theory.tex" 1772554046 15289 98c6da84a71ca0e18bcbb0bb7fb01a54 ""
+  "Theory.tex" 1772722365 15594 ea5671ffcc515b3a529ed3a4fdc1ca21 ""
   "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" 1772559130 1322 5b91f6e2b177ff01abfb9dc1deb21333 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1730816274 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730817172 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -44,6 +49,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1730815497 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1730815497 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1730815497 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1730815497 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1730815497 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1730815497 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1730815497 32734 69e00a6b65cedb993666e42eedb3d48f ""
@@ -124,13 +130,13 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730821801 3342990 9025e25a63361d41d9124afd2aa4bdcb ""
   "c:/texlive/2024/texmf.cnf" 1730821643 713 e69b156964470283e0530f5060668171 ""
   "interferogram.jpg" 1771424976 138779 4c1b03be6d6f54acd9662aed154f6da7 ""
-  "main.aux" 1772559384 5104 c119ef3ea94586bba07b25551346a976 "pdflatex"
-  "main.bbl" 1772559133 383 b4305edc657403740449da9fe8783b03 "bibtex main"
-  "main.lof" 1772559384 554 5ff550cedaab273094f1dc5d2f291123 "pdflatex"
-  "main.lot" 1772559384 132 ec95b3406cb50a8c4671d0a85a37219a "pdflatex"
-  "main.out" 1772559384 3743 b0e7f9abe7fbcfea224b83cf51bb09d0 "pdflatex"
+  "main.aux" 1772723048 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.bbl" 1772723048 0 d41d8cd98f00b204e9800998ecf8427e "bibtex main"
+  "main.lof" 0 -1 0 "pdflatex"
+  "main.lot" 0 -1 0 "pdflatex"
+  "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1772559130 1322 5b91f6e2b177ff01abfb9dc1deb21333 ""
-  "main.toc" 1772559384 1929 90bde94dc96968d983d6410f2a4a24e5 "pdflatex"
+  "main.toc" 0 -1 0 "pdflatex"
   "titlepage.tex" 1771427822 936 edcf06f71d558f19c64d38b07d297aea ""
   (generated)
   "main.aux"
