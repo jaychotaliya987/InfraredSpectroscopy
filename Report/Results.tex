@@ -208,10 +208,45 @@ of the number of particular molecules in the atmosphere. For that we will again 
 in the form \ref{Equation: Lambert-Beer Law - coloumn form}. 
 
 For $I_0$ (Irradiated Intensity), We will integrate with the linear baseline. Which is illustrated in the
-\ref{} for $N_2O$ and \ref{} for $CO_2$. $I$ is the absorption intensity. 
+\ref{fig: n2o band integration for the number of particles} for $N_2O$ and \ref{fig: Co2 band integration for the number of particles} for $CO_2$. $I$ is the absorption intensity. 
 
-\begin
 
+\begin{figure} [H]
+    \centering
+    \includegraphics [width=0.70\textwidth] {N2O_Band_Integral.png} 
+    \caption {$N_2O$ Band at 2522 to 2596 $cm^{-1}$}
+    \label{fig: n2o band integration for the number of particles}
+\end{figure}
+
+The bands were already given for which the absorption coefficient $\beta$ is calculated in \cite{module}. With the
+absorption coefficient for the band, calculate the number of the molecules in the atmosphere. The number of $CO_2$ and
+$N_2O$ are $1.34 \times 10^{19}$ and  $3.01 \times 10^{21}$ respectively.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics [width=0.70\textwidth] {CO2_Band_Integration.png}
+    \caption {$CO_2$ Band at 4815 to 4885 $cm^{-1}$}
+    \label{fig: Co2 band integration for the number of particles}
+\end{figure}
+
+
+With the number of particle we calculated the PPM and PPB of the respectively and compare it to the number of PPM/PPB
+with the results. The comparison is done in the table below
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c | c}
+\textbf{}            & \textbf{$N_2O$ PPB} & \textbf{$CO_2$ PPM} \\
+\hline
+\textbf{Calculated}  & $1.34 \times 10^{19}$     & $3.01 \times 10^{21}$ \\
+\textbf{Module}      & $2563.5$                  & N$_2$O \\
+\end{tabular}
+
+
+\caption[Literature and calculated number of molecules]{Literature and calculated number of molecules}
+\label{Tab: Number of particles}
+
+\end{table}
 
 
 

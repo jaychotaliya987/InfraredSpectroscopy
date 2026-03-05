@@ -1,22 +1,24 @@
 # Fdb version 4
-["bibtex main"] 1772723048.42086 "main.aux" "main.bbl" "main" 1772723048.7706 2
-  "./references.bib" 1772719487 691 b27cbec7aa08cb25b6a5e7d884bb1a51 ""
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1772731339.84738 -1
+  "./references.bib" 1772727742 719 c8f3a6b4cb32c59eeefb8068fdece325 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1730815969 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1772723048 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1772731338 8506 279c5b15a5484ab433d1e3d3bfbc59ac "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772723043.87853 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1772723047.81678 2
+["pdflatex"] 1772731335.0607 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1772731339.84806 0
+  "CO2_Band_Integration.png" 1772721606 470564 6400e1905a49d680e9865ed74ab977e0 ""
   "Michelson_interferometer.jpg" 1771424970 100336 3fc4b2eb87b7e3bca26358c1a7fdd77e ""
   "Molecular_Regions.png" 1771438124 95016 6e713397c51f3e88d248841c71c2d99c ""
   "N2OBand1.png" 1772640503 3068070 f2446196637370a14e8d30a43a787f27 ""
   "N2OBand3.png" 1772462117 31017 d3ce9a990c957a2091441626ad9ea6f4 ""
   "N2OBand4.jpeg" 1772642269 79560 2c48de4ccf16fd7fe6e9588efd7c21d1 ""
+  "N2O_Band_Integral.png" 1772721607 380083 eaca886d56470d31362f56cf8b2d8fe3 ""
   "N2O_Band_Integration.png" 1772721646 423698 02e1bf07c78f702aaf4defb804a8f53a ""
   "Ozone.png" 1772557232 13813 5c7dca2d14c6ce039b0c386725be6e21 ""
   "Particle_density.png" 1772721606 134218 4667fb200992908aec9fb5fb8e1e2e02 ""
-  "Results.tex" 1772723043 10767 3ae1bddb6cd0041404f9906d84aa7059 ""
+  "Results.tex" 1772731334 12296 555e1d0aee855e0a8877ced1acfa37c2 ""
   "SunSpectra.png" 1771433658 23762 54b755abd3878c48d0cf90ed309182d0 ""
   "Theory.tex" 1772722365 15594 ea5671ffcc515b3a529ed3a4fdc1ca21 ""
   "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" 1772559130 1322 5b91f6e2b177ff01abfb9dc1deb21333 ""
@@ -130,13 +132,13 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730821801 3342990 9025e25a63361d41d9124afd2aa4bdcb ""
   "c:/texlive/2024/texmf.cnf" 1730821643 713 e69b156964470283e0530f5060668171 ""
   "interferogram.jpg" 1771424976 138779 4c1b03be6d6f54acd9662aed154f6da7 ""
-  "main.aux" 1772723048 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.bbl" 1772723048 0 d41d8cd98f00b204e9800998ecf8427e "bibtex main"
-  "main.lof" 0 -1 0 "pdflatex"
-  "main.lot" 0 -1 0 "pdflatex"
-  "main.out" 0 -1 0 "pdflatex"
+  "main.aux" 1772731338 8506 279c5b15a5484ab433d1e3d3bfbc59ac "pdflatex"
+  "main.bbl" 1772727736 541 f0fa019c1e5d2697cafee98486e9ede7 "bibtex main"
+  "main.lof" 1772731338 1200 7a635bb7a2fd64468133ca84f8b56b57 "pdflatex"
+  "main.lot" 1772731338 217 11951f3dad3269c13cefab1c109b77a0 "pdflatex"
+  "main.out" 1772731338 4763 891bfd5fea6da622b864c6cebe4b12f7 "pdflatex"
   "main.tex" 1772559130 1322 5b91f6e2b177ff01abfb9dc1deb21333 ""
-  "main.toc" 0 -1 0 "pdflatex"
+  "main.toc" 1772731338 2348 39cd3c5821754dc6f7a4ed1c9a349759 "pdflatex"
   "titlepage.tex" 1771427822 936 edcf06f71d558f19c64d38b07d297aea ""
   (generated)
   "main.aux"
