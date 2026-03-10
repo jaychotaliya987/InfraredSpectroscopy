@@ -1,12 +1,11 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces FTIR Schematic of Spectrometer}}{6}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Spectra and Interferograms}}{7}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Sun Spectra}}{11}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Molecular Regions Highlighted}}{12}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Absorption Band}}{13}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Absorption Band of $N_2O$}}{14}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Absorption Band of $N_2O$}}{14}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Absorption Band of $N_2O$ with $J_{max}$}}{15}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Absorption Band of $N_2O$ with $J_{max}$}}{15}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Particle density vs. Altitude}}{16}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces $N_2O$ Band at 2522 to 2596 $cm^{-1}$}}{17}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces $CO_2$ Band at 4815 to 4885 $cm^{-1}$}}{17}{figure.12}%
+\contentsline {figure}{\numberline {1}{\ignorespaces FTIR Schematic of Spectrometer}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Spectra and Interferograms}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sun Spectra}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Molecular Regions Highlighted}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Observed absorption band near $1044.3 \text { cm}^{-1}$ displaying P and R branches.}}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {6}{\ignorespaces $N_2O$ absorption band selected for the moment of inertia calculation.}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {7}{\ignorespaces $N_2O$ absorption band selected for gas pressure calculation through integration.}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {8}{\ignorespaces $N_2O$ absorption band used to identify $J_{\text {max}}$ for temperature calculation.}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Secondary $N_2O$ absorption band used for $J_{\text {max}}$ verification.}}{15}{figure.caption.23}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Modeled particle density as a function of altitude.}}{15}{figure.caption.24}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Integration of absorption bands for $N_2O$ and $CO_2$ to determine atmospheric particle numbers.}}{16}{figure.caption.25}%

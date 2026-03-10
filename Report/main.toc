@@ -11,17 +11,18 @@
 \contentsline {paragraph}{Rotational}{3}{section*.5}%
 \contentsline {subsection}{\numberline {2.6}Intensity Distribution and $J_{\text {max}}$}{4}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Fourier-Transform Spectrometer}{5}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Lambert--Beer Absorption Law}{7}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Barometric Altitude Formula}{8}{subsection.2.9}%
-\contentsline {section}{\numberline {3}Experimental Methods}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Apparatus}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Measurement Principle}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Procedure}{10}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Evaluation of the measured spectra}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Description of the spectra}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Blackbody Temperature}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Identification of the molecules}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {2.8}Lambert--Beer Absorption Law}{6}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Barometric Altitude Formula}{7}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Experimental Methods}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apparatus}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Measurement Principle}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Procedure}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Evaluation of the measured spectra}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Description of the spectra}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Blackbody Temperature}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Identification of Molecules}{12}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Calculation of Moment of Inertia}{13}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Determination of the gas pressure}{14}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Temperature determination $N_2O$}{15}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Determination of the concentration of greenhouse gases}{16}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.5}Determination of Gas Pressure}{13}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Temperature Determination of $N_2O$}{14}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Determination of Greenhouse Gas Concentrations}{15}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Summary}{17}{subsection.4.8}%

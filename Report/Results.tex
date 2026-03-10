@@ -1,81 +1,78 @@
-
 \section{Evaluation of the measured spectra}
 
-After performing the experiment, we obtained the spectra of $N_2O$ and lab air. Due to the unclear
-weather we were not able to obtain the spectrum of the sun. But the required sun spectra were then
-handed to us. The following section will evaluate the spectra.
+After performing the experiment, we obtained the spectra of $N_2O$ and laboratory air. Due to unclear
+weather conditions, we were not able to obtain the spectrum of the Sun. However, the required solar spectrum was later
+provided to us. The following sections evaluate the spectra.
 
 \subsection{Description of the spectra}\label{Subsec: Spectra}
 
-The absorption spectrum of sun is typical for infrared (IR) region spectrum with distict absorption bands of $CO_2$ and $H_2O$.
-In the spectrum of lab air we also see the absorption bands of $CO_2$ and $H_2O$. But they are much less pronounced because
-the path length of the light through atmosphere is much higher then the path length of the light through lab air. 
+The absorption spectrum of the Sun is typical for the infrared (IR) region, with distinct absorption bands of $CO_2$ and $H_2O$.
+In the spectrum of laboratory air, we also observe absorption bands of $CO_2$ and $H_2O$. However, they are much less pronounced because
+the path length of the light through the atmosphere is much larger than the path length of the light through laboratory air.
 
-The solar spectra have the maximum at the wavenumber of $2615.67 cm^{-1}$. This is 
-not consistent with the expected blackbody radiation maximum. That is because we are measuring the
-spectrum in the infrared. This is out of the maximum of the sun's peak radiation output.
-The second reason is the atmosphere of the earth. Earth absorbs lots of radiation and hence shifts the
-maximum to unrealistic values. This will further complicates the calculation of the true maximum of the 
-sun's spectrum.
+The measured solar spectrum has a maximum at the wavenumber of $2615.67\ \text{cm}^{-1}$. This is 
+not consistent with the expected maximum of blackbody radiation. This is because we are measuring the
+spectrum in the infrared region, which lies away from the peak of the solar radiation spectrum, which is in 
+visible range (20000 $cm^{-1}$). The second reason is the Earth's atmosphere. The atmosphere absorbs 
+a significant amount of radiation and therefore shifts the observed maximum. This further complicates 
+the determination of the true maximum of the solar spectrum.
 
-In addition to that the sensitivity of the instrument is different for different wavenumbers. Which also
-adds to the shift of the maximum.
+In addition, the sensitivity of the instrument varies for different wavenumbers, which also
+contributes to the shift of the maximum.
 
-The spectrum is also dense with absorption bands. This is caused by typical IR absorbing molecules. This can be seen in the
+The spectrum is also dense with absorption bands. This is caused by typical IR-absorbing molecules. This can be seen in
 figure \ref{fig: SunSpectra}.
-
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.80\textwidth] {SunSpectra.png} 
-    \caption [Sun Spectra] {Absorption spectra of the sun with dense regions of absorption bands.}
+    \caption [Sun Spectra] {Absorption spectrum of the Sun with dense regions of absorption bands.}
     \label{fig: SunSpectra}
 \end{figure}
 
-The spectrum of sun is very wide compared to the other two, spanning from 300 $cm^{-1}$ to 8000 $cm^{-1}$. 
-This gives us limited comparison of the spectra. We managed to identify 3 most prominent absorption bands. 
-In the figure \ref{fig: Molecular_Regions} we have identified the corresponding molecules responsible for the absorption 
-bands. The most prominent is water. Because of it's V-shaped structure it has many vibrational modes. Which are 
-$3N - 6$ for non-linear molecules. Because of 3 fundamental vibrations, $H_2O$ has no clear P and R branches compared 
-to $CO_2$. Which is second molecule we found. The visible P and R branches are result of the linear structure of $CO_2$.
+The solar spectrum is very wide compared to the other two, spanning from 300 $\text{cm}^{-1}$ to 8000 $\text{cm}^{-1}$. 
+This allows only limited comparison with the other spectra. We managed to identify the three most prominent absorption bands. 
+In figure \ref{fig: Molecular_Regions}, we have identified the corresponding molecules responsible for these absorption 
+bands. The most prominent molecule is water. Because of its V-shaped structure, it has many vibrational modes, which are 
+given by $3N - 6$ for non-linear molecules. Due to its three fundamental vibrations, $H_2O$ does not show clear P and R branches
+compared to $CO_2$, which is the second molecule identified. The visible P and R branches are a result of the linear
+structure of $CO_2$.
 
 \begin{figure} [H]
     \centering
-    \includegraphics [width=0.80\textwidth] {Molecular_Regions.png} 
-    \caption [Molecular Regions Highlighted] {This is the comparison of the spectra of sun(top), $N_2O$, and lab air
-    , showing absorption bands. }
+    \includegraphics [width=0.90\textwidth] {Molecular_Regions.png} 
+    \caption [Molecular Regions Highlighted] {Comparison of the spectra of the Sun (top), $N_2O$, and laboratory air,
+    showing absorption bands. }
     \label{fig: Molecular_Regions}
 \end{figure}
 
+
 \subsection{Blackbody Temperature} \label{Subsec: BlackBody}
 
-With the help of intensity maximum of the sun spectra we can calculate the temperature of the sun. Which is given by the
-Wien's displacement law:
+By analyzing the intensity maximum of the solar spectrum, we can calculate the effective temperature of the Sun using Wien's Displacement Law:
 
 \begin{equation}
     \lambda_{\text{max}} = \frac{b}{T}
 \end{equation}
 
-with $b = 0.29 cm\cdot K$.
+where $b \approx 0.29 \text{ cm}\cdot\text{K}$.
 
-With the maximum of the spectrum at $2615.67 cm^{-1}$, the temperature of the sun came out to be $758.54 K$.
-This is much lower than actual temperature of the sun which is around $5772 K$. This is because of the reasons
-mentioned in the previous section \ref{Subsec: Spectra}.
 
-In addition to that we also calculated the temperature of the lab air and $N_2O$ using the same method. 
-The temperatures came out to be $527.69 K$ and $415.2 K$. This again is lower than the actual temperature of the
-laser used for the experiment which is around $1000 K$. For this the reason is most likely the sensitivity of the instrument.
 
-\subsection{Identification of the molecules}\label{Subsec: molecules}
+Given the maximum of the spectrum at $2615.67 \text{ cm}^{-1}$, the calculated temperature of the Sun was found to be $758.54 \text{ K}$. This value is significantly lower than the actual solar effective temperature of approximately $5772 \text{ K}$. This discrepancy is primarily due to atmospheric extinction and the specific spectral characteristics discussed in Section \ref{Subsec: Spectra}.
 
-By closely examining the solar spectra we found lot of absorption bands with P and R branches. The results are listed in a table
-\ref{tab: Band Origins}
+Additionally, we calculated the temperatures of the laboratory air and $N_2O$ using the same methodology. The resulting temperatures were $527.69 \text{ K}$ and $415.2 \text{ K}$, respectively. These results are also lower than the actual temperature of the laser source used in the experiment (approximately $1000 \text{ K}$), which is likely attributable to the limited sensitivity and calibration of the instrument.
+
+\newpage
+
+\subsection{Identification of Molecules}\label{Subsec: molecules}
+
+A detailed examination of the solar spectra revealed numerous absorption bands exhibiting distinct P and R branches. These results are summarized in Table \ref{tab: Band Origins}.
 
 \begin{table}[ht]
 \centering
-
 \begin{tabular}{c | c | c}
-\textbf{Observed Band Origin} (\si{cm^{-1}}) & \textbf{Literature Value} (\si{cm^{-1}}) & \textbf{Identified Molecule} \\
+\textbf{Observed Band Origin} ($\text{cm}^{-1}$) & \textbf{Literature Value} ($\text{cm}^{-1}$) & \textbf{Identified Molecule} \\
 \hline
 2462.6 & 2461.5 & N$_2$O \\
 2563.3 & 2563.5 & N$_2$O \\
@@ -84,171 +81,164 @@ By closely examining the solar spectra we found lot of absorption bands with P a
 6228.4 & 6231.0 & CO$_2$ \\
 6345.8 & 6351.0 & CO$_2$ \\
 \end{tabular}
-
-\caption[Band Origins and Literature Values]{Observed and Literature Band Origins of Atmospheric Trace Gases}
+\caption{Observed and literature band origins of identified atmospheric trace gases.}
 \label{tab: Band Origins}
 \end{table}
 
-Apart from the usual candidates we also found the absorption band near $1044.3 cm^{-1}$. This band was too hard to ignore with a prominent 
-P and R branch see figure:\ref{fig: Ozone} As for what molecule this band is from, We are not sure. Only molecule with strong band at this
-wavenumber is ozone. But ozone is not linear and hence should not have such clear P and R branches.
-In literature we see the band of ozone at $1042 cm^{-1}$ \cite{amt-7-609-2014}. This is close to our observation but we are not sure.
+
+
+Apart from the expected species, we observed a prominent absorption band near $1044.3 \text{ cm}^{-1}$. This band featured well-defined P and R branches, as shown in Figure \ref{fig: Ozone}. While the identity of this molecule is not immediately certain, the most likely candidate for a strong absorption band in this region is ozone ($O_3$). Although ozone is a non-linear molecule and typically exhibits more complex rotational structures, the literature identifies a major ozone band at $1042 \text{ cm}^{-1}$ \cite{amt-7-609-2014}. This aligns closely with our experimental observation, though the simplicity of the observed branches warrants further investigation.
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.60\textwidth] {Ozone.png} 
-    \caption [Absorption Band] {Absorption band of with P and R branches.}
+    \caption{Observed absorption band near $1044.3 \text{ cm}^{-1}$ displaying P and R branches.}
     \label{fig: Ozone}
 \end{figure}
-
 \subsection{Calculation of Moment of Inertia}\label{Subsec: MOI}
 
-There is a lot of information that can be obtained from the spectra. With the spectra of $N_2O$ we
-can calculate the moment of inertia of the molecule. The relation of the moment of inertia and the rotational
-constant, $B$. This is stated in equation:\ref{equation: MOI}.
+Molecular spectra provide significant insights into the physical properties of a molecule. Using the $N_2O$ spectrum, we can calculate the molecular moment of inertia ($I$) via its relationship with the rotational constant, $B$, as defined in Equation \ref{equation: MOI}.
 
-With the spectra of $N_20$ we select a band with clear P and R branches. We choose the band in the region
-$1168.8 cm^{-1}$ shown in figure \ref{fig: N2O_Band}. We then note the distance between 5 consecutive lines.
-The averaged distance is then $2B$. 
+To perform this calculation, we selected an absorption band with well-resolved P and R branches in the region of $1168.8 \text{ cm}^{-1}$ (see Figure \ref{fig: N2O_Band}). By measuring the distance between five consecutive rotational lines, we determined the average line spacing, which corresponds to $2B$.
+
+
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.60\textwidth] {N2OBand3.png} 
-    \caption [Absorption Band of $N_2O$] {$N_2O$ Absorption bands chosen for moment of inertia calculation.}
+    \caption{$N_2O$ absorption band selected for the moment of inertia calculation.}
     \label{fig: N2O_Band}
 \end{figure}
 
-The moment of inertia for $N_2O$ from the spectra came out to be $6.689 \times 10^{-47} kg \cdot m^2$. 
-The literature value of the moment of inertia is $6.680 \times 10^{-47} kg \cdot m^2$. 
-This is very close to our calculated value. The error is $0.13\%$.
+The moment of inertia for $N_2O$ derived from the spectra was $6.689 \times 10^{-47} \text{ kg} \cdot \text{m}^2$. Compared to the literature value of $6.680 \times 10^{-47} \text{ kg} \cdot \text{m}^2$, our experimental result shows an error of only $0.13\%$.
 
-\subsection {Determination of the gas pressure}\label{Subsec: Pressure}
+\subsection{Determination of Gas Pressure}\label{Subsec: Pressure}
 
-For the pressure in the gas cell we used Lamber-Beer Law. The relation is already discussed in the 
-section \ref{Subsec: LambertBeer}. With the help of absorption line strength, $S$, we can calculate 
-the pressure with the following equation:
+The gas pressure within the cell was determined using the Beer-Lambert Law, the theoretical basis of which was established in Section \ref{Subsec: LambertBeer}. By utilizing the absorption line strength ($S$), the pressure can be calculated using the following relation:
 
 \begin{equation}
-ln\left(\frac{I}{I_0}\right) = -S \cdot p \cdot L \cdot \frac{1}{\Delta \nu}
+\ln\left(\frac{I}{I_0}\right) = -S \cdot p \cdot L \cdot \frac{1}{\Delta \nu}
 \end{equation}
 
-$L = 15 \si{cm}$ is the length of the cell, $p$ is the quantity of interest, which is pressure and $S$ is the
-band strength of the absorption line, for the particular line it was $\SI{10.9}{cm^{-2}.atm^{-1}}$. 
+where $L = 15 \text{ cm}$ is the path length of the cell, $p$ is the partial pressure of the gas, and $S$ is the line strength (taken as $10.9 \text{ cm}^{-2}\cdot\text{atm}^{-1}$ for the specific transition). 
 
-For the left side, $I$ is the intensity of the absorption line. and $I_0$ is the area under the curve of 
-absorption line. After the relevant calculations we found the pressure of the gas sample inside the cell 
-to be $\SI{0.4161}{atm}$.
+In this analysis, $I$ represents the intensity of the absorption line, while $I_0$ is the baseline intensity (or the integrated area under the curve for the reference). After performing the relevant calculations, the pressure of the gas sample inside the cell was found to be $0.4161 \text{ atm}$.
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.60\textwidth] {N2O_band_Integration.png} 
-    \caption [Absorption Band of $N_2O$] {$N_2O$ Absorption bands chosen for gas pressure calculation.}
+    \caption{$N_2O$ absorption band selected for gas pressure calculation through integration.}
     \label{fig: N2O_Band_Integration}
 \end{figure}
 
-\subsection{Temperature determination $N_2O$} \label{Subsec: Temperature}
+\subsection{Temperature Determination of $N_2O$} \label{Subsec: Temperature}
 
-To determine the temperature of the gas sample we used the relation already discussed in the section 
-\ref{Subsec: IntensityDistribution}. The relation is \ref{equation:Temperature of gas}.
+To determine the rotational temperature of the gas sample, we employed the population distribution relationship discussed in Section \ref{Subsec: IntensityDistribution} (Equation \ref{equation:Temperature of gas}).
 
-To determine the temperature we need to find the $J_{max}$. This is the number of lines from the center to the 
-the maximum absorption line. We determined the $J_{max}$ from two different absorption bands. 
+
+
+This method requires identifying $J_{\text{max}}$, the rotational quantum number corresponding to the maximum absorption intensity within a branch. We determined $J_{\text{max}}$ from two distinct absorption bands to ensure consistency.
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.80\textwidth] {N2OBand1.png} 
-    \caption [Absorption Band of $N_2O$ with $J_{max}$]{$N_2O$ absorption band with $J_{max}$.}
+    \caption{$N_2O$ absorption band used to identify $J_{\text{max}}$ for temperature calculation.}
     \label{fig: N2OBand2}
 \end{figure}
 
-With $J_max$ determined we can calculate the temperature of the gas in the cylinder. For the first 
-band the the temperature came out to be $\SI{289.769}{K}$. And for the second absorption band, the temperature
-was $\SI{328.364}{K}$.
-
+Using the determined $J_{\text{max}}$ values, the gas temperature was calculated for both instances. The first band yielded a temperature of $289.769 \text{ K}$, while the second band resulted in a temperature of $328.364 \text{ K}$.
 
 \begin{figure} [H]
     \centering
     \includegraphics [width=0.80\textwidth] {N2OBand4.jpeg} 
-    \caption [Absorption Band of $N_2O$ with $J_{max}$]{$N_2O$ absorption band with $J_{max}$.}
+    \caption{Secondary $N_2O$ absorption band used for $J_{\text{max}}$ verification.}
     \label{fig: N2OBand1}
 \end{figure}
 
+\subsection{Determination of Greenhouse Gas Concentrations}\label{Subsec: Concentration of greenhouse gases}
+
+To determine the concentration of specific gases in the atmosphere, it is first necessary to calculate the total number of molecules in the atmospheric column. This is achieved by applying the Ideal Gas Law (Equation \ref{Equation: Ideal Gas Law}). By using the pressure and temperature at sea level as a reference, we can estimate the particle density at the surface and subsequently extrapolate this value to higher altitudes using the Barometric Formula (Equation \ref{equation: Pressure with altitude}).
 
 
-\subsection{Determination of the concentration of greenhouse gases}\label{Subsec: Concentration of greenhouse gases}
 
-To determine the concentration of particular gas in the atmosphere we have to calculate the total number of molecules
-in the atmosphere. To do that we will use the ideal gas law \ref{Equation: Ideal Gas Law}. With the pressure and 
-temperature at the sea level we can estimate the number of particle at the sea level and then extrapolate the number
-according to the pressure decrease with altitude. We will use the barometric altitude formula \ref{equation: Pressure with altitude}.
-
-With this conditions the number of particle with altitude scales like shown in figure \ref{fig: Particle Density with Altitude}
-
+Under these conditions, the particle density scales with altitude as illustrated in Figure \ref{fig: Particle Density with Altitude}.
 
 \begin{figure} [H]
     \centering
-    \includegraphics [width=0.80\textwidth] {Particle_density.png} 
-    \caption {Particle density vs. Altitude}
+    \includegraphics [width=0.75\textwidth] {Particle_density.png} 
+    \caption{Modeled particle density as a function of altitude.}
     \label{fig: Particle Density with Altitude}
 \end{figure}
 
-
-With particles at different altitudes we can integrate and get the number of particles in
-a column, so called column density, $N_0$ which came out to be $\SI{1.619} \times {10^{25}}{cm^{-1}}$. 
-For the total number of particle irradiated by the sun, we need to calculate the path length of light 
-through the atmosphere. That depends on the inclination of the sun. For the provided spectra it was
-$\SI{59}{\degree}$. The number of particle irradiated by the light is then calculated,
+By integrating the particle density over the atmospheric height, we obtain the total column density, $N_0$. Our calculations yielded a value of $N_0 = 1.619 \times 10^{25} \text{ cm}^{-2}$. To account for the total number of particles encountered by the solar radiation, the optical path length must be adjusted based on the solar zenith angle. For the spectra provided, the angle of inclination ($\alpha$) was $59^{\circ}$. The total number of irradiated particles, $N_{\text{ges}}$, is calculated as follows:
 
 \begin{equation}
-N_{ges} = \frac{N_0}{sin\alpha} = 2.5428 \times 10^{25}
+N_{\text{ges}} = \frac{N_0}{\sin\alpha} = 2.5428 \times 10^{25} \text{ cm}^{-2}
 \end{equation}
 
-Now with the estimate of the total number of the particles in the atmosphere we can have the estimate
-of the number of particular molecules in the atmosphere. For that we will again use the Lambert-Beer law,
-in the form \ref{Equation: Lambert-Beer Law - coloumn form}. 
+With the total atmospheric particle count established, we can estimate the concentration of specific trace gases using the Beer-Lambert Law in its column density form (Equation \ref{Equation: Lambert-Beer Law - coloumn form}). 
 
-For $I_0$ (Irradiated Intensity), We will integrate with the linear baseline. Which is illustrated in the
-\ref{fig: n2o band integration for the number of particles} for $N_2O$ and \ref{fig: Co2 band integration for the number of particles} for $CO_2$. $I$ is the absorption intensity. 
+To determine the incident intensity ($I_0$), we applied a linear baseline integration, as illustrated in Figures \ref{fig:n2o_sub} and \ref{fig:co2_sub} for $N_2O$ and $CO_2$, respectively. 
 
-
-\begin{figure} [H]
-    \centering
-    \includegraphics [width=0.70\textwidth] {N2O_Band_Integral.png} 
-    \caption {$N_2O$ Band at 2522 to 2596 $cm^{-1}$}
-    \label{fig: n2o band integration for the number of particles}
+\begin{figure}[H]
+     \centering
+     % First Subfigure (N2O)
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{N2O_Band_Integral.png}
+         \caption{$N_2O$ band ($2522$–$2596 \text{ cm}^{-1}$)}
+         \label{fig:n2o_sub}
+     \end{subfigure}
+     \hfill % Adds horizontal space between the two images
+     % Second Subfigure (CO2)
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{CO2_Band_Integration.png}
+         \caption{$CO_2$ band ($4815$–$4885 \text{ cm}^{-1}$)}
+         \label{fig:co2_sub}
+     \end{subfigure}
+     
+     \caption{Integration of absorption bands for $N_2O$ and $CO_2$ to determine atmospheric particle numbers.}
+     \label{fig:combined_bands}
 \end{figure}
 
-The bands were already given for which the absorption coefficient $\beta$ is calculated in \cite{module}. With the
-absorption coefficient for the band, calculate the number of the molecules in the atmosphere. The number of $CO_2$ and
-$N_2O$ are $1.34 \times 10^{19}$ and  $3.01 \times 10^{21}$ respectively.
+The absorption coefficients ($\beta$) for these bands were sourced from literature \cite{module}. Using these coefficients, the number of molecules in the atmosphere was determined to be $1.34 \times 10^{19} \text{ cm}^{-2}$ for $CO_2$ and $3.01 \times 10^{21} \text{ cm}^{-2}$ for $N_2O$. 
 
-\begin{figure} [H]
-    \centering
-    \includegraphics [width=0.70\textwidth] {CO2_Band_Integration.png}
-    \caption {$CO_2$ Band at 4815 to 4885 $cm^{-1}$}
-    \label{fig: Co2 band integration for the number of particles}
-\end{figure}
-
-
-With the number of particle we calculated the PPM and PPB of the respectively and compare it to the number of PPM/PPB
-with the results. The comparison is done in the table below
+The resulting volume mixing ratios in PPM (parts per million) and PPB (parts per billion) are compared with standard literature values in Table \ref{Tab: Number of particles}.
 
 \begin{table}[H]
 \centering
-\begin{tabular}{c | c | c}
-\textbf{}            & \textbf{$N_2O$ PPB} & \textbf{$CO_2$ PPM} \\
+\begin{tabular}{l | c | c}
+\textbf{Source} & \textbf{$N_2O$ [PPB]} & \textbf{$CO_2$ [PPM]} \\
 \hline
-\textbf{Calculated}  & $1.34 \times 10^{19}$     & $3.01 \times 10^{21}$ \\
-\textbf{Module}      & $2563.5$                  & N$_2$O \\
+\textbf{Calculated} & 1028.88 & 116 \\
+\textbf{Literature} & $\approx 325$ & $\approx 400$ \\
 \end{tabular}
-
-
-\caption[Literature and calculated number of molecules]{Literature and calculated number of molecules}
+\caption{Comparison between calculated concentrations and literature values.}
 \label{Tab: Number of particles}
-
 \end{table}
 
+Significant deviations were observed for both $N_2O$ and $CO_2$. These discrepancies likely stem from spectral noise and the presence of overlapping absorption features. Noise in the baseline can artificially "lift" the spectrum, resulting in unrealistic intensity ratios and significant calculation errors. 
 
+Furthermore, we noted that the edges of the $CO_2$ spectrum do not return cleanly to the baseline, with portions of the signal appearing above the integrated reference line. Because the Beer-Lambert Law depends logarithmically on the intensity ratio, even minor baseline offsets can lead to drastic changes in the final concentration. For instance, if the intensity ratio were approximately $0.8$ (instead of the observed $0.228$), the $CO_2$ concentration would be $408 \text{ PPM}$, which aligns closely with current atmospheric standards. This suggests that the primary source of error is a poorly resolved absorption spectrum caused by a low signal-to-noise ratio.
+
+
+\subsection{Summary} \label{Summary}
+
+In this experiment, the infrared absorption spectra of the sun, laboratory air, and a contained $N_2O$ gas sample were analyzed to investigate molecular constants and atmospheric trace gas concentrations. 
+
+The solar spectrum revealed a complex structure dominated by $H_2O$ and $CO_2$ absorption bands. The measured intensity maximum at $2615.67 \text{ cm}^{-1}$ yielded a brightness temperature of $758.54 \text{ K}$ via Wien's displacement law. This value is significantly lower than the actual solar surface temperature due to the selective sensitivity of the detector in the IR region and the heavy attenuation of shorter wavelengths by the Earth's atmosphere.
+
+Key molecular parameters were successfully extracted from the $N_2O$ spectra:
+\begin{itemize}
+    \item \textbf{Moment of Inertia:} Calculated as $6.689 \times 10^{-47} \text{ kg} \cdot \text{ m}^2$, which showed an excellent agreement with the literature value ($6.680 \times 10^{-47} \text{ kg} \cdot \text{ m}^2$), resulting in a relative error of only $0.13\%$.
+    \item \textbf{Gas Pressure:} Determined via the Lambert-Beer law to be $0.4161 \text{ atm}$ within the sample cell.
+    \item \textbf{Rotational Temperature:} Analysis of $J_{max}$ in two different bands provided temperatures of $289.77 \text{ K}$ and $328.36 \text{ K}$, reflecting the thermal state of the gas sample during measurement.
+\end{itemize}
+
+Atmospheric concentrations for $N_2O$ and $CO_2$ were estimated using column density integration. While the calculated values ($1028.88 \text{ ppb}$ and $116 \text{ ppm}$ respectively) showed noticeable deviations from standard atmospheric averages, these were attributed to the difficulty in defining a precise baseline ($I_0$) due to spectral noise and overlapping absorption features. 
+
+Ultimately, the experiment demonstrated the high precision of IR spectroscopy in determining molecular geometry (moment of inertia) while highlighting the practical challenges of absolute intensity calibration in remote sensing applications.
 
 
 

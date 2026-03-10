@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  5 MAR 2026 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  6 MAR 2026 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,6 +319,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip56
+) (c:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count316
+\WF@box=\box66
+\WF@everypar=\toks30
+Package: wrapfig 2003/01/31  v 3.6
 ) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip57
@@ -330,8 +337,34 @@ Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip63
 \f@nch@O@olf=\skip64
 \f@nch@O@orf=\skip65
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen187
+\captionmargin=\dimen188
+\caption@leftmargin=\dimen189
+\caption@rightmargin=\dimen190
+\caption@width=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
+Package caption Info: Standard document class detected.
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 25.
+\c@caption@flags=\count317
+\c@continuedfloat=\count318
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count319
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count320
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 27.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -340,46 +373,46 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box67
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 25.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 27.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen185
-\scratchbox=\box67
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen186
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count322
+\scratchdimen=\dimen195
+\scratchbox=\box68
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen196
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks32
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -420,11 +453,13 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 27.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  (./titlepage.tex
 
 [1
@@ -522,11 +557,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<Michelson_interferometer.jpg, id=228, 276.03125pt x 183.68625pt>
-File: Michelson_interferometer.jpg Graphic file (type jpg)
-<use Michelson_interferometer.jpg>
-Package pdftex.def Info: Michelson_interferometer.jpg  used on input line 292.
-(pdftex.def)             Requested size: 295.94795pt x 196.95993pt.
+<Michelson_interferometer.png, id=232, 577.15625pt x 565.11125pt>
+File: Michelson_interferometer.png Graphic file (type png)
+<use Michelson_interferometer.png>
+Package pdftex.def Info: Michelson_interferometer.png  used on input line 286.
+(pdftex.def)             Requested size: 201.99121pt x 197.77464pt.
 
 
 
@@ -536,12 +571,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
-<interferogram.jpg, id=235, 276.03125pt x 183.68625pt>
-File: interferogram.jpg Graphic file (type jpg)
-<use interferogram.jpg>
-Package pdftex.def Info: interferogram.jpg  used on input line 318.
-(pdftex.def)             Requested size: 352.31625pt x 234.47571pt.
+[5 <./Michelson_interferometer.png>]
+<interferogram.png, id=239, 281.81842pt x 408.37737pt>
+File: interferogram.png Graphic file (type png)
+<use interferogram.png>
+Package pdftex.def Info: interferogram.png  used on input line 317.
+(pdftex.def)             Requested size: 225.4804pt x 326.73972pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 322.
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 337--339
+[]$\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^W\OT1/cmr/m/n/12 )$ is the ab-sorp-tion co-ef-fi-cient
+ []
+
 
 
 
@@ -551,7 +595,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./Michelson_interferometer.jpg>]
+[6 <./interferogram.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -560,7 +604,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./interferogram.jpg>]
+[7]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -578,20 +622,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]) (./Results.tex
-<SunSpectra.png, id=280, 1224.648pt x 622.836pt>
+[9]) (./Results.tex
+<SunSpectra.png, id=282, 1224.648pt x 622.836pt>
 File: SunSpectra.png Graphic file (type png)
 <use SunSpectra.png>
-Package pdftex.def Info: SunSpectra.png  used on input line 30.
+Package pdftex.def Info: SunSpectra.png  used on input line 28.
 (pdftex.def)             Requested size: 375.80544pt x 191.1289pt.
 
 
@@ -602,16 +637,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./SunSpectra.png>]
-<Molecular_Regions.png, id=288, 1395.71437pt x 719.68875pt>
+[10 <./SunSpectra.png>]
+<Molecular_Regions.png, id=291, 1395.71437pt x 719.68875pt>
 File: Molecular_Regions.png Graphic file (type png)
 <use Molecular_Regions.png>
-Package pdftex.def Info: Molecular_Regions.png  used on input line 44.
-(pdftex.def)             Requested size: 375.80544pt x 193.78046pt.
-<Ozone.png, id=293, 721.19438pt x 694.09312pt>
+Package pdftex.def Info: Molecular_Regions.png  used on input line 43.
+(pdftex.def)             Requested size: 422.77664pt x 217.99478pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./Molecular_Regions.png (PNG copy)>]
+Overfull \hbox (17.66797pt too wide) in paragraph at lines 90--91
+[]\OT1/cmr/m/n/12 Apart from the ex-pected species, we ob-served a promi-nent ab-sorp-tion band near $1044\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 3[][]$.
+ []
+
+<Ozone.png, id=301, 721.19438pt x 694.09312pt>
 File: Ozone.png Graphic file (type png)
 <use Ozone.png>
-Package pdftex.def Info: Ozone.png  used on input line 99.
+Package pdftex.def Info: Ozone.png  used on input line 94.
 (pdftex.def)             Requested size: 281.85587pt x 271.25655pt.
 
 
@@ -622,42 +671,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./Molecular_Regions.png (PNG copy)>]
-<N2OBand3.png, id=301, 1890.3122pt x 968.86969pt>
+[12 <./Ozone.png>]
+<N2OBand3.png, id=310, 1890.3122pt x 968.86969pt>
 File: N2OBand3.png Graphic file (type png)
 <use N2OBand3.png>
-Package pdftex.def Info: N2OBand3.png  used on input line 116.
+Package pdftex.def Info: N2OBand3.png  used on input line 108.
 (pdftex.def)             Requested size: 281.85587pt x 144.45193pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13 <./Ozone.png>]
-<N2O_band_Integration.png, id=309, 722.7pt x 433.62pt>
+<N2O_band_Integration.png, id=312, 722.7pt x 433.62pt>
 File: N2O_band_Integration.png Graphic file (type png)
 <use N2O_band_Integration.png>
-Package pdftex.def Info: N2O_band_Integration.png  used on input line 144.
+Package pdftex.def Info: N2O_band_Integration.png  used on input line 129.
 (pdftex.def)             Requested size: 281.85587pt x 169.11111pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 149.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 149.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 149.
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -665,16 +691,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./N2OBand3.png> <./N2O_Band_Integration.png>]
-<N2OBand1.png, id=319, 597.2714pt x 312.1261pt>
+[13 <./N2OBand3.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
+
+<N2OBand1.png, id=321, 597.2714pt x 312.1261pt>
 File: N2OBand1.png Graphic file (type png)
 <use N2OBand1.png>
-Package pdftex.def Info: N2OBand1.png  used on input line 159.
+Package pdftex.def Info: N2OBand1.png  used on input line 144.
 (pdftex.def)             Requested size: 375.80544pt x 196.39282pt.
-<N2OBand4.jpeg, id=320, 1606.0pt x 830.10126pt>
+<N2OBand4.jpeg, id=322, 1606.0pt x 830.10126pt>
 File: N2OBand4.jpeg Graphic file (type jpg)
 <use N2OBand4.jpeg>
-Package pdftex.def Info: N2OBand4.jpeg  used on input line 171.
+Package pdftex.def Info: N2OBand4.jpeg  used on input line 153.
 (pdftex.def)             Requested size: 375.80544pt x 194.23784pt.
 
 
@@ -685,17 +723,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./N2OBand1.png> <./N2OBand4.jpeg>]
-<Particle_density.png, id=329, 650.43pt x 433.62pt>
+[14 <./N2O_Band_Integration.png> <./N2OBand1.png>]
+<Particle_density.png, id=332, 650.43pt x 433.62pt>
 File: Particle_density.png Graphic file (type png)
 <use Particle_density.png>
-Package pdftex.def Info: Particle_density.png  used on input line 190.
-(pdftex.def)             Requested size: 375.80544pt x 250.54037pt.
-<N2O_Band_Integral.png, id=333, 722.7pt x 433.62pt>
-File: N2O_Band_Integral.png Graphic file (type png)
-<use N2O_Band_Integral.png>
-Package pdftex.def Info: N2O_Band_Integral.png  used on input line 216.
-(pdftex.def)             Requested size: 328.82707pt x 197.29741pt.
+Package pdftex.def Info: Particle_density.png  used on input line 168.
+(pdftex.def)             Requested size: 352.31625pt x 234.87912pt.
 
 
 
@@ -705,13 +738,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./Particle_density.png>]
+[15 <./N2OBand4.jpeg> <./Particle_density.png>]
+<N2O_Band_Integral.png, id=341, 722.7pt x 433.62pt>
+File: N2O_Band_Integral.png Graphic file (type png)
+<use N2O_Band_Integral.png>
+Package pdftex.def Info: N2O_Band_Integral.png  used on input line 188.
+(pdftex.def)             Requested size: 225.4804pt x 135.28757pt.
 <CO2_Band_Integration.png, id=342, 722.7pt x 433.62pt>
 File: CO2_Band_Integration.png Graphic file (type png)
 <use CO2_Band_Integration.png>
-Package pdftex.def Info: CO2_Band_Integration.png  used on input line 227.
-(pdftex.def)             Requested size: 328.82707pt x 197.29741pt.
-)
+Package pdftex.def Info: CO2_Band_Integration.png  used on input line 196.
+(pdftex.def)             Requested size: 225.4804pt x 135.28757pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -720,7 +758,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17 <./N2O_Band_Integral.png> <./CO2_Band_Integration.png>] (./main.bbl)
+[16 <./N2O_Band_Integral.png> <./CO2_Band_Integration.png>])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17] (./main.bbl)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -735,21 +782,21 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 891BFD5FEA6DA622B864C6CEBE4B12F7;4763.
+(rerunfilecheck)             Checksum: F06A37ACA9A4866632E3F0B8B3C5A6D2;4782.
  ) 
 Here is how much of TeX's memory you used:
- 14827 strings out of 473362
- 286132 string characters out of 5725051
- 655172 words of memory out of 5000000
- 37644 multiletter control sequences out of 15000+600000
- 568441 words of font info for 75 fonts, out of 8000000 for 9000
+ 16325 strings out of 473362
+ 314995 string characters out of 5725051
+ 682860 words of memory out of 5000000
+ 39128 multiletter control sequences out of 15000+600000
+ 569989 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,505b,970s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (21 pages, 6997669 bytes).
+ 75i,12n,80p,784b,970s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (21 pages, 6837462 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 114 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
