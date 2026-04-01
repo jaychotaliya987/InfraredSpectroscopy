@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1772814581.14847 "main.aux" "main.bbl" "main" 1772814714.43953 0
+["bibtex main"] 1773139769.6583 "main.aux" "main.bbl" "main" 1773139775.45644 0
   "./references.bib" 1772813671 904 e60d4d49fd1f42996aaeec8ad80bddfa ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1730815969 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1772814713 9878 abc6028d5643dd4fd5b52dacce0ad60c "pdflatex"
+  "main.aux" 1773139774 9878 abc6028d5643dd4fd5b52dacce0ad60c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772814708.08027 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1772814714.44076 0
+["pdflatex"] 1773139770.05317 "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" "main.pdf" "main" 1773139775.45704 0
   "CO2_Band_Integration.png" 1772806867 470564 6400e1905a49d680e9865ed74ab977e0 ""
   "Michelson_interferometer.png" 1772812876 18416 528eb0c8771f25dc4d3c1fe53a5da45d ""
   "Molecular_Regions.png" 1771438124 95016 6e713397c51f3e88d248841c71c2d99c ""
@@ -18,9 +18,9 @@
   "N2O_Band_Integration.png" 1772721646 423698 02e1bf07c78f702aaf4defb804a8f53a ""
   "Ozone.png" 1772557232 13813 5c7dca2d14c6ce039b0c386725be6e21 ""
   "Particle_density.png" 1772806866 134218 4667fb200992908aec9fb5fb8e1e2e02 ""
-  "Results.tex" 1772814707 16281 8ae11e49692ad9449a178afa6e20915e ""
+  "Results.tex" 1773139400 16034 f28f4986af429710df2a4bab1e17bdaa ""
   "SunSpectra.png" 1771433658 23762 54b755abd3878c48d0cf90ed309182d0 ""
-  "Theory.tex" 1772814340 15649 efd920ebd5f6fa24fc00ee7afb0ed364 ""
+  "Theory.tex" 1773139773 15656 127b9fbbd330c7c06aa959f35dc9fdf2 ""
   "c:/Users/jaych/Documents/Experiments/InfraredSpectroscopy/Report/main.tex" 1772814559 1369 6bcd26323c69c404aa60aa9d2cb39387 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1730816274 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730817172 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -139,13 +139,13 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730821801 3342990 9025e25a63361d41d9124afd2aa4bdcb ""
   "c:/texlive/2024/texmf.cnf" 1730821643 713 e69b156964470283e0530f5060668171 ""
   "interferogram.png" 1772813388 77458 362652e027416acb054a51ace8f63f1f ""
-  "main.aux" 1772814713 9878 abc6028d5643dd4fd5b52dacce0ad60c "pdflatex"
-  "main.bbl" 1772814581 695 d3d3b34dab385d27625d640197875f22 "bibtex main"
-  "main.lof" 1772814713 1517 1fae1cd4df00f2dd0fec4c3ac21c6782 "pdflatex"
-  "main.lot" 1772814713 298 8ed470a01b8f57bdf2a096443277946f "pdflatex"
-  "main.out" 1772814713 4782 f06a37aca9a4866632e3f0b8b3c5a6d2 "pdflatex"
+  "main.aux" 1773139774 9878 abc6028d5643dd4fd5b52dacce0ad60c "pdflatex"
+  "main.bbl" 1773139770 695 d3d3b34dab385d27625d640197875f22 "bibtex main"
+  "main.lof" 1773139774 1517 1fae1cd4df00f2dd0fec4c3ac21c6782 "pdflatex"
+  "main.lot" 1773139774 298 8ed470a01b8f57bdf2a096443277946f "pdflatex"
+  "main.out" 1773139774 4782 f06a37aca9a4866632e3f0b8b3c5a6d2 "pdflatex"
   "main.tex" 1772814559 1369 6bcd26323c69c404aa60aa9d2cb39387 ""
-  "main.toc" 1772814713 2405 9158c7b01270a6c9fcc4c0b3afe571ea "pdflatex"
+  "main.toc" 1773139774 2405 9158c7b01270a6c9fcc4c0b3afe571ea "pdflatex"
   "titlepage.tex" 1771427822 936 edcf06f71d558f19c64d38b07d297aea ""
   (generated)
   "main.aux"
